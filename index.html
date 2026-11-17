@@ -1,0 +1,1034 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>元町SS 活性化ご提案</title>
+<meta name="description" content="横浜元町ショッピングストリート 活性化・集客プロジェクトのご提案（ディシーワークス × CMJ）">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f3ea; --paper:#fffdf8; --ink:#1d2733; --ink2:#4b5563; --muted:#7a8088;
+  --navy:#1f3550; --navy2:#2d4b6e; --brick:#8c2f39; --gold:#b08d57; --green:#4a6b52; --sky:#d9e4ec;
+  --line:#e3dccd; --tint:#efe8da; --tint2:#e8eef3; --ok:#3f7a55; --warn:#a2672a;
+  --shadow:0 1px 2px rgba(20,30,40,.06),0 8px 24px rgba(20,30,40,.06);
+  --serif:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",serif;
+  --sans:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;
+  --latin:"Cormorant Garamond",Georgia,serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#12171d; --paper:#1a2129; --ink:#e9e6df; --ink2:#c2c6cc; --muted:#959ba3;
+    --navy:#9fb8d6; --navy2:#b9cce3; --brick:#e08a93; --gold:#d6b47e; --green:#8fbf9a; --sky:#26323f;
+    --line:#2f3944; --tint:#222b34; --tint2:#1f2a35; --ok:#8fcfa6; --warn:#e2ad6d;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25); color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#12171d; --paper:#1a2129; --ink:#e9e6df; --ink2:#c2c6cc; --muted:#959ba3;
+  --navy:#9fb8d6; --navy2:#b9cce3; --brick:#e08a93; --gold:#d6b47e; --green:#8fbf9a; --sky:#26323f;
+  --line:#2f3944; --tint:#222b34; --tint2:#1f2a35; --ok:#8fcfa6; --warn:#e2ad6d;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.25); color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.85;-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%;display:block}
+a{color:var(--navy2)}
+h1,h2,h3,h4{font-family:var(--serif);line-height:1.4;margin:0}
+p{margin:.6em 0}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+@media (max-width:640px){.wrap{padding:0 16px}}
+
+/* nav */
+.topnav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.topnav .wrap{display:flex;align-items:center;gap:16px;height:52px}
+.brand{font-family:var(--latin);font-size:20px;letter-spacing:.06em;color:var(--navy);white-space:nowrap;text-decoration:none}
+.navlinks{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;flex:1}
+.navlinks::-webkit-scrollbar{display:none}
+.navlinks a{font-size:13px;color:var(--ink2);text-decoration:none;padding:6px 10px;border-radius:999px;white-space:nowrap}
+.navlinks a:hover{background:var(--tint)}
+.themebtn{border:1px solid var(--line);background:var(--paper);color:var(--ink2);border-radius:999px;font-size:12px;padding:4px 10px;cursor:pointer}
+
+/* hero */
+.hero{background:linear-gradient(180deg,var(--sky) 0%,var(--bg) 100%);padding:56px 0 0;overflow:hidden}
+.hero .eyebrow{font-family:var(--latin);letter-spacing:.2em;color:var(--brick);font-size:15px}
+.hero h1{font-size:clamp(30px,5vw,54px);font-weight:700;color:var(--navy);margin:10px 0 8px;letter-spacing:.04em}
+.hero .sub{font-family:var(--serif);font-size:clamp(16px,2.2vw,21px);color:var(--ink2)}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:20px;font-size:14px;color:var(--ink2)}
+.hero .meta b{color:var(--ink)}
+.hero-ill{margin-top:28px}
+
+/* sections */
+section.sec{padding:72px 0;border-top:1px solid var(--line)}
+.sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.sec-no{font-family:var(--latin);font-size:44px;color:var(--gold);line-height:1}
+.sec-head h2{font-size:clamp(24px,3.2vw,32px);color:var(--navy)}
+.sec-head .en{font-family:var(--latin);font-style:italic;color:var(--muted);font-size:17px}
+.lead{font-family:var(--serif);font-size:18px;color:var(--ink);max-width:860px}
+h3{font-size:21px;color:var(--navy);margin:36px 0 12px}
+h4{font-size:17px;color:var(--ink);margin:0 0 6px}
+.small{font-size:13px;color:var(--muted)}
+.tag{display:inline-block;font-size:12px;font-weight:500;padding:2px 10px;border-radius:999px;background:var(--tint);color:var(--ink2);margin-right:6px;white-space:nowrap}
+.tag.dw{background:var(--navy);color:var(--paper)}
+.tag.ag{background:var(--brick);color:var(--paper)}
+.tag.ss{background:var(--gold);color:#1d1d1d}
+.tag.pt{background:var(--green);color:var(--paper)}
+
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:900px){.g3,.g4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.g2,.g3,.g4{grid-template-columns:1fr}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:var(--shadow)}
+.card.flat{box-shadow:none}
+.card .k{font-family:var(--latin);font-size:13px;letter-spacing:.14em;color:var(--brick);text-transform:uppercase}
+
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px}
+.stat .num{font-family:var(--serif);font-weight:700;font-size:32px;color:var(--navy);line-height:1.2;font-variant-numeric:tabular-nums}
+.stat .num small{font-size:15px;font-weight:600;margin-left:2px}
+.stat .lab{font-size:14px;color:var(--ink);margin-top:4px;font-weight:500}
+.stat .src{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.5}
+
+.callout{border-left:4px solid var(--brick);background:var(--paper);padding:18px 22px;border-radius:0 12px 12px 0;margin:22px 0}
+.callout.navy{border-color:var(--navy)}
+.callout.gold{border-color:var(--gold)}
+.quote{font-family:var(--serif);font-size:clamp(20px,3vw,28px);color:var(--navy);line-height:1.6}
+
+table{width:100%;border-collapse:collapse;font-size:14px;background:var(--paper)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+th,td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--tint);font-weight:700;color:var(--ink);white-space:nowrap}
+tr:last-child td{border-bottom:none}
+td.c,th.c{text-align:center}
+.mark-o{color:var(--ok);font-weight:700}
+.mark-x{color:var(--brick);font-weight:700}
+.mark-t{color:var(--warn);font-weight:700}
+
+ul.clean{list-style:none;padding:0;margin:0}
+ul.clean li{padding-left:1.2em;position:relative;margin:.35em 0}
+ul.clean li::before{content:"";position:absolute;left:0;top:.75em;width:7px;height:7px;border-radius:50%;background:var(--gold)}
+ol.steps{counter-reset:s;list-style:none;padding:0;margin:0}
+ol.steps li{counter-increment:s;position:relative;padding-left:44px;margin:14px 0}
+ol.steps li::before{content:counter(s);position:absolute;left:0;top:2px;width:30px;height:30px;border-radius:50%;background:var(--navy);color:var(--paper);font-family:var(--latin);font-size:17px;display:flex;align-items:center;justify-content:center}
+
+.pillar{position:relative;overflow:hidden}
+.pillar .big{font-family:var(--latin);font-size:64px;color:var(--tint);position:absolute;right:14px;top:-6px;line-height:1}
+.pillar h4{position:relative;font-size:19px;color:var(--navy)}
+.figure{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px;margin:18px 0}
+.figure figcaption{font-size:13px;color:var(--muted);margin-top:10px}
+.svgtext{font-family:var(--sans)}
+.split{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:start}
+@media (max-width:900px){.split{grid-template-columns:1fr}}
+
+.plan{border-top:3px solid var(--navy)}
+.plan.ag{border-top-color:var(--brick)}
+.plan.pt{border-top-color:var(--green)}
+.who{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0 10px}
+
+.gantt{min-width:760px}
+.gantt .row{display:grid;grid-template-columns:200px repeat(16,1fr);align-items:center;border-bottom:1px dashed var(--line);min-height:34px}
+.gantt .row.head{font-size:11px;color:var(--muted);border-bottom:1px solid var(--line)}
+.gantt .row.head div{text-align:center}
+.gantt .lbl{font-size:13px;padding-right:8px}
+.gantt .bar{height:16px;border-radius:8px}
+.b-n{background:var(--navy)} .b-b{background:var(--brick)} .b-g{background:var(--gold)} .b-gr{background:var(--green)}
+.gantt .ms{font-size:10px;color:var(--brick);font-weight:700;text-align:center;white-space:nowrap;line-height:1.4}
+
+.guard{display:flex;gap:14px;align-items:flex-start}
+.guard .ic{flex:0 0 40px;height:40px;border-radius:10px;background:var(--tint);display:flex;align-items:center;justify-content:center;font-family:var(--latin);font-size:20px;color:var(--brick)}
+
+.footer{padding:48px 0 64px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.src-list{columns:2;column-gap:28px;font-size:12.5px;line-height:1.7}
+.src-list li{break-inside:avoid;margin-bottom:4px;word-break:break-all}
+@media (max-width:700px){.src-list{columns:1}}
+.note{font-size:12.5px;color:var(--muted)}
+
+@media print{
+  .topnav{display:none}
+  section.sec{page-break-before:always;padding:28px 0}
+  .card,.stat,.figure{box-shadow:none}
+  body{background:#fff}
+}
+</style>
+</head>
+<body>
+
+<nav class="topnav" aria-label="目次">
+  <div class="wrap">
+    <a class="brand" href="#top">MOTOMACHI 2027</a>
+    <div class="navlinks">
+      <a href="#summary">要旨</a><a href="#now">現状</a><a href="#issue">課題</a><a href="#concept">コンセプト</a>
+      <a href="#bench">他エリア事例</a><a href="#plan">施策</a><a href="#area">エリア連携</a><a href="#year">年間計画</a>
+      <a href="#team">体制</a><a href="#kpi">KPI</a><a href="#budget">予算・補助金</a><a href="#next">進め方</a>
+    </div>
+    <button class="themebtn" id="themeBtn" type="button" aria-label="表示テーマ切替">◐</button>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow">YOKOHAMA MOTOMACHI SHOPPING STREET — PROPOSAL</div>
+    <h1>伝統は変えずに、<br>伝え方を変える。</h1>
+    <p class="sub">横浜元町ショッピングストリート 活性化・集客プロジェクト ご提案書<br>— 開港の街の「はじまりの物語」を、次の世代と世界へ —</p>
+    <div class="meta">
+      <span>ご提案先：<b>協同組合 元町エスエス会 御中</b></span>
+      <span>ご提案：<b>ディシーワークス × CMJ</b>（イベント・サイネージ領域は広告代理店と連携）</span>
+      <span>2026年11月</span>
+    </div>
+  </div>
+  <div class="hero-ill" aria-hidden="true">
+    <svg viewBox="0 0 1200 300" preserveAspectRatio="xMidYMax slice" style="width:100%;height:auto;min-height:180px">
+      <!-- sky & hills (Yamate) -->
+      <path d="M0 150 C 200 90, 380 110, 560 120 S 900 80, 1200 120 L1200 300 L0 300Z" fill="var(--sky)" opacity=".9"/>
+      <!-- western house on the bluff -->
+      <g transform="translate(860,58)" fill="var(--paper)" stroke="var(--navy)" stroke-width="2">
+        <rect x="0" y="34" width="110" height="52"/>
+        <path d="M-8 36 L55 4 L118 36Z" fill="var(--brick)" opacity=".85"/>
+        <rect x="16" y="48" width="14" height="22" fill="var(--sky)"/><rect x="48" y="48" width="14" height="22" fill="var(--sky)"/><rect x="80" y="48" width="14" height="22" fill="var(--sky)"/>
+        <rect x="78" y="-6" width="10" height="20" fill="var(--paper)"/>
+      </g>
+      <!-- harbor mast & ship -->
+      <g transform="translate(90,92)" stroke="var(--navy)" stroke-width="2" fill="none">
+        <path d="M0 40 L120 40 L105 58 L12 58Z" fill="var(--navy)" opacity=".85"/>
+        <line x1="40" y1="40" x2="40" y2="0"/><line x1="80" y1="40" x2="80" y2="8"/>
+        <path d="M40 4 L64 30 L40 30Z" fill="var(--paper)"/>
+      </g>
+      <!-- street shops -->
+      <g>
+        <rect x="0" y="170" width="1200" height="130" fill="var(--paper)"/>
+        <g stroke="var(--navy)" stroke-width="1.6">
+          <rect x="30"  y="150" width="170" height="120" fill="var(--paper)"/>
+          <rect x="210" y="132" width="150" height="138" fill="var(--tint)"/>
+          <rect x="370" y="158" width="190" height="112" fill="var(--paper)"/>
+          <rect x="570" y="140" width="160" height="130" fill="var(--tint)"/>
+          <rect x="740" y="152" width="180" height="118" fill="var(--paper)"/>
+          <rect x="930" y="136" width="150" height="134" fill="var(--tint)"/>
+          <rect x="1090" y="156" width="110" height="114" fill="var(--paper)"/>
+        </g>
+        <!-- awnings -->
+        <g>
+          <path d="M30 196 h170 l-10 18 h-150Z" fill="var(--brick)"/>
+          <path d="M210 186 h150 l-10 18 h-130Z" fill="var(--navy)"/>
+          <path d="M370 200 h190 l-10 18 h-170Z" fill="var(--green)"/>
+          <path d="M570 192 h160 l-10 18 h-140Z" fill="var(--gold)"/>
+          <path d="M740 198 h180 l-10 18 h-160Z" fill="var(--brick)"/>
+          <path d="M930 188 h150 l-10 18 h-130Z" fill="var(--navy)"/>
+          <path d="M1090 200 h110 l-10 18 h-90Z" fill="var(--green)"/>
+        </g>
+        <!-- windows -->
+        <g fill="var(--sky)" stroke="var(--navy)" stroke-width="1.2">
+          <rect x="50" y="222" width="60" height="40"/><rect x="128" y="222" width="54" height="48" fill="var(--paper)"/>
+          <rect x="228" y="212" width="112" height="50"/>
+          <rect x="392" y="226" width="70" height="38"/><rect x="480" y="226" width="58" height="44" fill="var(--paper)"/>
+          <rect x="590" y="218" width="120" height="44"/>
+          <rect x="760" y="224" width="80" height="40"/><rect x="852" y="224" width="52" height="46" fill="var(--paper)"/>
+          <rect x="950" y="214" width="110" height="48"/>
+          <rect x="1106" y="226" width="78" height="38"/>
+        </g>
+        <!-- upper windows -->
+        <g fill="var(--paper)" stroke="var(--navy)" stroke-width="1.2">
+          <rect x="60" y="164" width="22" height="22"/><rect x="104" y="164" width="22" height="22"/><rect x="148" y="164" width="22" height="22"/>
+          <rect x="236" y="146" width="22" height="28"/><rect x="274" y="146" width="22" height="28"/><rect x="312" y="146" width="22" height="28"/>
+          <rect x="600" y="154" width="22" height="26"/><rect x="640" y="154" width="22" height="26"/><rect x="680" y="154" width="22" height="26"/>
+          <rect x="958" y="150" width="22" height="26"/><rect x="996" y="150" width="22" height="26"/><rect x="1034" y="150" width="22" height="26"/>
+        </g>
+        <!-- lamps -->
+        <g stroke="var(--navy)" stroke-width="2.4" fill="var(--gold)">
+          <line x1="365" y1="290" x2="365" y2="196"/><circle cx="365" cy="190" r="7"/>
+          <line x1="735" y1="290" x2="735" y2="196"/><circle cx="735" cy="190" r="7"/>
+          <line x1="925" y1="290" x2="925" y2="196"/><circle cx="925" cy="190" r="7"/>
+        </g>
+        <!-- pavement -->
+        <rect x="0" y="270" width="1200" height="30" fill="var(--tint)"/>
+        <g fill="var(--line)"><rect x="0" y="284" width="1200" height="2"/></g>
+        <!-- people -->
+        <g fill="var(--navy)">
+          <circle cx="300" cy="248" r="6"/><rect x="295" y="255" width="10" height="20" rx="4"/>
+          <circle cx="318" cy="250" r="5" fill="var(--brick)"/><rect x="314" y="256" width="9" height="18" rx="4" fill="var(--brick)"/>
+          <circle cx="660" cy="248" r="6" fill="var(--green)"/><rect x="655" y="255" width="10" height="20" rx="4" fill="var(--green)"/>
+          <circle cx="1010" cy="248" r="6"/><rect x="1005" y="255" width="10" height="20" rx="4"/>
+          <circle cx="1030" cy="266" r="4" fill="var(--gold)"/><rect x="1024" y="268" width="14" height="6" rx="3" fill="var(--gold)"/>
+        </g>
+      </g>
+      <text x="1170" y="292" text-anchor="end" font-family="Cormorant Garamond,serif" font-size="14" fill="var(--muted)">Since 1859</text>
+    </svg>
+  </div>
+</header>
+
+<main>
+<!-- ================= 01 SUMMARY ================= -->
+<section class="sec" id="summary">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">01</span><h2>エグゼクティブサマリー</h2><span class="en">Executive Summary</span></div>
+    <p class="lead">元町には、全国のどの商店街もまねできない<strong>「開港以来の本物の物語」</strong>と、年間を通じた催事の型、そして景観を自ら守ってきた<strong>自治の歴史</strong>があります。足りていないのは、それを<strong>今の生活者・世界の旅行者に届く言葉と仕組みで伝えること</strong>です。<br>本提案は、伝統そのものには手を加えず、<strong>伝え方・つなぎ方・測り方</strong>を更新します。</p>
+
+    <div class="grid g3" style="margin-top:26px">
+      <div class="card pillar"><span class="big">I</span><div class="k">Story</div><h4>語る ― 物語の資産化</h4><p>店主取材の連載「元町の手」と季刊ZINEを軸に、ウェブ・SNS・雑誌へ一つの素材を展開。<br><span class="tag dw">DW×CMJ</span></p></div>
+      <div class="card pillar"><span class="big">II</span><div class="k">Connect</div><h4>つなぐ ― 周遊の中心へ</h4><p>中華街・山手・港・クルーズ・GREEN×EXPO 2027、そして神戸・函館の「元町」と連携し、元町を<strong>回遊の結節点</strong>に。<br><span class="tag dw">DW×CMJ</span><span class="tag ag">代理店</span></p></div>
+      <div class="card pillar"><span class="big">III</span><div class="k">Measure</div><h4>測る ― 続く仕組み</h4><p>多言語の公式サイトを基盤に、人流・売上・デジタル指標を一本のKPIツリーで管理し、補助金と組み合わせて<strong>自走化</strong>。<br><span class="tag dw">DW×CMJ</span><span class="tag ss">SS会</span></p></div>
+    </div>
+
+    <div class="callout navy" style="margin-top:28px">
+      <h4>なぜ「今」なのか ― 2027年に向けた4つの追い風</h4>
+      <ul class="clean">
+        <li><b>GREEN×EXPO 2027</b>（2027/3/19〜9/26、目標参加者1,500万人）。会場は郊外のため、都心部に滞在する来場者の「街なかの受け皿」が求められる。</li>
+        <li><b>横浜港のクルーズ寄港が全国1位</b>（2025年209回）。飛鳥Ⅲが横浜船籍で就航。大さん橋は元町から徒歩圏。</li>
+        <li><b>免税制度の変更</b>（2026/11/1〜リファンド方式）。消耗品の上限・特殊包装が撤廃され、洋菓子・雑貨の老舗が免税販売しやすくなった。</li>
+        <li><b>元町通り街づくり協定の認定期限</b>（2027/3/31）。更新の機会に、景観と両立する「デジタル活用の指針」を加えられる。</li>
+      </ul>
+    </div>
+
+    <h3>期待する成果（1年後の目標・たたき台）</h3>
+    <div class="grid g4">
+      <div class="stat"><div class="num">+50<small>%</small></div><div class="lab">公式サイトの自然検索流入</div><div class="src">前年比。全ページ固有タイトル化・多言語化による</div></div>
+      <div class="stat"><div class="num">15<small>%+</small></div><div class="lab">多言語セッション比率</div><div class="src">英・繁・簡・韓の4言語を新設</div></div>
+      <div class="stat"><div class="num">1.5<small>万人</small></div><div class="lab">LINE友だち</div><div class="src">現状 約7,800人 → 約2倍</div></div>
+      <div class="stat"><div class="num">24<small>店</small></div><div class="lab">店主取材の記事化</div><div class="src">月2本。ウェブ・SNS・ZINEに展開</div></div>
+    </div>
+    <p class="note" style="margin-top:10px">※ 目標値は公開情報にもとづく仮置きです。キックオフ時の現状計測（ベースライン）を経て、エスエス会と合意のうえ確定します。</p>
+  </div>
+</section>
+
+<!-- ================= 02 NOW ================= -->
+<section class="sec" id="now">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">02</span><h2>現状と機会 ― 数字で見る元町</h2><span class="en">Facts &amp; Opportunities</span></div>
+
+    <h3 style="margin-top:0">元町の強み（資産）</h3>
+    <div class="grid g4">
+      <div class="stat"><div class="num">1859</div><div class="lab">開港とともに始まる歴史</div><div class="src">山手の外国人居留者が関内へ通う道に店が集まり発展</div></div>
+      <div class="stat"><div class="num">約40<small>万人</small></div><div class="lab">チャーミングセール1回の来街</div><div class="src">年2回・各9日間。1961年から続く（2016年の理事長談、2024年まっぷるは40〜50万人）</div></div>
+      <div class="stat"><div class="num">約200<small>店</small></div><div class="lab">加盟・セール参加店</div><div class="src">会員店211店（2021年7月）。約500〜600mの通り</div></div>
+      <div class="stat"><div class="num">2<small>回</small></div><div class="lab">アド街ック天国で特集・1位</div><div class="src">2012/9/22・2025/9/13 いずれも1位は元町SS</div></div>
+    </div>
+    <div class="grid g3" style="margin-top:18px">
+      <div class="card flat"><h4>景観を自ら守る自治</h4><p class="small" style="color:var(--ink2)">1950年代に壁面後退で歩行空間をつくり、1985年に街づくり協定。街づくり室が改装・看板の事前協議を担う。2017年にまち並みデザインアワードを創設。</p></div>
+      <div class="card flat"><h4>途切れない年間催事</h4><p class="small" style="color:var(--ink2)">2・9月のチャーミングセール、春のガーデンパーティー、夏のピーターラビット企画（2025年は15ブランドがコラボ）、ハロウィン、クリスマス。</p></div>
+      <div class="card flat"><h4>発信力のある老舗</h4><p class="small" style="color:var(--ink2)">ハマトラの三種の神器（フクゾー・ミハマ・キタムラ）。近沢レース店のInstagramは約21.5万フォロワーで、街の公式の約7.7倍。</p></div>
+    </div>
+
+    <h3>外部環境の機会</h3>
+    <div class="grid g4">
+      <div class="stat"><div class="num">3,915<small>万人</small></div><div class="lab">横浜市 観光入込客数（2025）</div><div class="src">観光消費額5,077億円（+11.2%）。客数の伸び（+3.8%）を上回り、単価が上がっている</div></div>
+      <div class="stat"><div class="num">209<small>回</small></div><div class="lab">横浜港クルーズ寄港（2025）</div><div class="src">全国1位（前年146回）。日本船104回・外国船105回</div></div>
+      <div class="stat"><div class="num">1,500<small>万人</small></div><div class="lab">GREEN×EXPO 2027 目標参加者</div><div class="src">2027/3/19〜9/26の192日間。会場は旧上瀬谷</div></div>
+      <div class="stat"><div class="num">4,268<small>万人</small></div><div class="lab">訪日客数（2025）</div><div class="src">消費額9.45兆円。消費額上位は中国・台湾・米国・韓国</div></div>
+    </div>
+    <div class="grid g3" style="margin-top:18px">
+      <div class="stat"><div class="num">約2.9<small>万人/日</small></div><div class="lab">元町・中華街駅の乗車人員</div><div class="src">東横線・副都心線と直通し、渋谷・池袋・埼玉方面から乗り換えなし（令和5年度、中区統計）</div></div>
+      <div class="stat"><div class="num">100<small>万人超</small></div><div class="lab">中華街 春節の来場</div><div class="src">チャーミングセール（2月）と同じ駅・同じ月</div></div>
+      <div class="stat"><div class="num">2026.11</div><div class="lab">免税リファンド方式へ移行</div><div class="src">商店街での共同対応が差別化になる</div></div>
+    </div>
+    <p class="note" style="margin-top:12px">出典は巻末に一覧。調査は2026年11月時点の公開情報によります。一部の数値は検索結果の要約にもとづくため、正式な提案時に原典で再確認します。</p>
+  </div>
+</section>
+
+<!-- ================= 03 ISSUE ================= -->
+<section class="sec" id="issue">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">03</span><h2>課題の整理 ― 「資産はある、届け方が追いついていない」</h2><span class="en">Diagnosis</span></div>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>領域</th><th>現状（調査で確認できたこと）</th><th>何が起きているか</th><th>打ち手</th></tr></thead>
+        <tbody>
+          <tr><td><b>ウェブ</b></td><td>ニュースや各イベントのページタイトルがすべて「横浜元町ショッピングストリート」。外国語は英語のみ。店舗一覧は業種・頭文字の分類だけ。店舗数の表記が200〜250で揺れている。</td><td>検索やAI検索で個別ページが評価されにくい。訪日客向けの情報は第三者サイト任せ。</td><td>A. サイトリニューアル</td></tr>
+          <tr><td><b>コンテンツ</b></td><td>更新はセール・ハマフェス・クリスマスなど年数回の告知が中心。店や人を掘り下げる読み物がない。</td><td>「なぜ元町で買うのか」が伝わらず、価格・利便性の比較に巻き込まれる。</td><td>B. 取材・ZINE</td></tr>
+          <tr><td><b>SNS</b></td><td>公式Instagram約2.8万・LINE約7,800人の基盤はある。TikTokとYouTubeは見当たらない。中国語圏向けの小紅書（RED）は未対応。2021年のリリース自身が「アカウントが知られていない」と認めている。</td><td>店ごとの発信力の差が大きく、街全体の発信としてまとまっていない。若年層・インバウンドとの接点が弱い。</td><td>C. SNS支援</td></tr>
+          <tr><td><b>回遊・連携</b></td><td>ハマフェスで5エリアの連携実績がある。一方で、元町・中華街・山手の常設周遊や、クルーズ客の受け入れ施策は見当たらない。</td><td>周辺の大量の来訪者（春節100万人、赤レンガのクリスマスマーケット124万人、クルーズ）を元町に呼び込めていない。</td><td>D. メディア / E. エリア連携</td></tr>
+          <tr><td><b>競合</b></td><td>BASEGATE横浜関内（2026年3月開業、55店のうち34店が飲食）、みなとみらいの新施設など、新しさと夜に強い施設が続々と開業している。</td><td>「新しさ」では勝てない。勝てるのは「本物・対面接客・修理・物語」の軸。</td><td>全施策の共通軸</td></tr>
+          <tr><td><b>測定</b></td><td>セール期間以外の来街者数や属性の定量データが見当たらない。</td><td>施策の効果を説明できず、予算の継続や補助金の申請で不利になる。</td><td>F. KPI・人流計測</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 04 CONCEPT ================= -->
+<section class="sec" id="concept">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">04</span><h2>コンセプト</h2><span class="en">Concept</span></div>
+    <div class="split">
+      <div>
+        <p class="quote">「日本の“洋”は、<br>この通りから始まった。」</p>
+        <p style="font-family:var(--latin);font-size:22px;color:var(--brick);margin-top:4px">Motomachi — Where Japan's Western Style Began. Since 1859.</p>
+        <p style="margin-top:18px">元町の価値は「おしゃれな街」ではなく、<strong>「はじまりの場所」</strong>であることです。ハマトラも、洋菓子も、レースも、靴も、ここで外国の暮らしと出会い、日本の文化になりました。<br>このコンセプトのもとで、すべての発信を<strong>「本物の系譜」×「今の使い手」</strong>の組み合わせで語ります。</p>
+        <div class="callout gold">
+          <b>ブランド低下を避ける</b>：自由が丘は「おしゃれ」の印象に頼ったまま、住みたい街ランキングが2025年に30位まで下がったと指摘されています。元町は流行ではなく<strong>系譜と人</strong>を語ることで、時代に左右されないブランドを守ります。
+        </div>
+      </div>
+      <figure class="figure" style="margin:0">
+        <svg viewBox="0 0 440 360" class="svgtext" role="img" aria-label="コンセプト構造図：本物の系譜と今の使い手の重なり">
+          <circle cx="160" cy="170" r="120" fill="var(--navy)" opacity=".14" stroke="var(--navy)" stroke-width="2"/>
+          <circle cx="280" cy="170" r="120" fill="var(--brick)" opacity=".12" stroke="var(--brick)" stroke-width="2"/>
+          <text x="105" y="120" font-size="15" font-weight="700" fill="var(--navy)" text-anchor="middle">本物の系譜</text>
+          <text x="105" y="146" font-size="12" fill="var(--ink2)" text-anchor="middle">開港・居留地</text>
+          <text x="105" y="166" font-size="12" fill="var(--ink2)" text-anchor="middle">老舗の技・ハマトラ</text>
+          <text x="105" y="186" font-size="12" fill="var(--ink2)" text-anchor="middle">街づくり協定</text>
+          <text x="335" y="120" font-size="15" font-weight="700" fill="var(--brick)" text-anchor="middle">今の使い手</text>
+          <text x="335" y="146" font-size="12" fill="var(--ink2)" text-anchor="middle">沿線のファミリー</text>
+          <text x="335" y="166" font-size="12" fill="var(--ink2)" text-anchor="middle">Z世代・レトロ好き</text>
+          <text x="335" y="186" font-size="12" fill="var(--ink2)" text-anchor="middle">訪日客・クルーズ客</text>
+          <text x="220" y="158" font-size="14" font-weight="700" fill="var(--ink)" text-anchor="middle">一生ものの</text>
+          <text x="220" y="178" font-size="14" font-weight="700" fill="var(--ink)" text-anchor="middle">体験と物語</text>
+          <text x="220" y="200" font-size="11" fill="var(--muted)" text-anchor="middle">修理・工房・対面</text>
+          <text x="220" y="330" font-size="13" fill="var(--ink2)" text-anchor="middle">伝統は「変えるもの」ではなく「手渡すもの」</text>
+        </svg>
+      </figure>
+    </div>
+
+    <h3>伝統を守るための6つの約束</h3>
+    <p>エスエス会が大切にしてきた品位と景観を前提に、本プロジェクトでは次の6点を守ります。</p>
+    <div class="grid g2" style="margin-top:14px">
+      <div class="guard"><div class="ic">1</div><div><h4>新しい看板イベントは乱立させない</h4><p class="small" style="color:var(--ink2)">チャーミングセール・ハマフェス・クリスマスなど既存の催事に<b>重ねて</b>強化します。名称・時期・正価セールの信頼は変えません。</p></div></div>
+      <div class="guard"><div class="ic">2</div><div><h4>景観協議はエスエス会が主体</h4><p class="small" style="color:var(--ink2)">サイネージや装飾は、街づくり室との事前協議を前提に設計します。代理店に任せきりにはしません。</p></div></div>
+      <div class="guard"><div class="ic">3</div><div><h4>量より質。観光地化しすぎない</h4><p class="small" style="color:var(--ink2)">鎌倉の食べ歩き問題の教訓から、来街者数よりも滞在時間・客単価・再訪率を重視します。</p></div></div>
+      <div class="guard"><div class="ic">4</div><div><h4>主役は店と人</h4><p class="small" style="color:var(--ink2)">インフルエンサーではなく店主・職人を主役にします。掲載内容は必ず店の確認を経て公開します。</p></div></div>
+      <div class="guard"><div class="ic">5</div><div><h4>店の負担を最小に</h4><p class="small" style="color:var(--ink2)">各店のお願いは「月1回のネタ出しフォーム」程度にします。制作・運用は私たちが担います。</p></div></div>
+      <div class="guard"><div class="ic">6</div><div><h4>すべて測って報告する</h4><p class="small" style="color:var(--ink2)">月次レポートと、四半期ごとの理事会報告で、効果と課題を共有します。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 05 BENCHMARK ================= -->
+<section class="sec" id="bench">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">05</span><h2>他エリアに学ぶ ― 神楽坂は参考になるか</h2><span class="en">Benchmarks</span></div>
+
+    <div class="callout">
+      <h4>結論：神楽坂は「仕組み」は参考になる。「見せ方」は持ち込まない。</h4>
+      <p>神楽坂は<b>和の伝統</b>で、外国文化（プチ・パリ）は後から集まったもの。元町は<b>洋の伝統</b>で、外国文化は開港以来の街の成り立ちそのものです。花街・阿波踊り・路地の迷路性をまねると「テーマパーク化」を招きます。一方で、<b>地元のルールを行政制度につなげた手法</b>や<b>文化事業を公的助成で回す仕組み</b>は、元町にそのまま効きます。</p>
+    </div>
+
+    <div class="tbl" style="margin-top:8px">
+      <table>
+        <thead><tr><th>神楽坂の施策</th><th>内容・成果</th><th>元町での応用</th><th class="c">評価</th></tr></thead>
+        <tbody>
+          <tr><td>憲章 → 地区計画 → 屋外広告ガイドライン</td><td>地元の「まちづくり憲章」を2007・2011年の地区計画と2019年の広告物ガイドラインにつなげた。事前協議を義務化。</td><td>2027年3月の協定更新に合わせて「元町スタンダード（景観とデジタルの指針）」を公開し、協議窓口を明確にする。</td><td class="c mark-o">◎</td></tr>
+          <tr><td>NPO × 公的文化財団の共催</td><td>「粋なまちづくり倶楽部」とアーツカウンシル東京による街なか公演（2026年で第14回）。都の文化予算を呼び込んでいる。</td><td>文化事業の受け皿をつくり、横浜市の文化系助成で「洋の伝統」の街角公演（室内楽・ジャズ）を行う。</td><td class="c mark-o">◎</td></tr>
+          <tr><td>まち飛びフェスタ（分散型の文化祭）</td><td>約80企画、大学生ボランティアが参加。</td><td>セールの合間に、老舗の技を公開する「元町クラフトウィーク」を開く。</td><td class="c mark-o">○</td></tr>
+          <tr><td>横丁の名前と小ネタ</td><td>兵庫横丁・かくれんぼ横丁の由来や石畳のハート形が、散策の物語になっている。</td><td>仲通り・山手の坂・居留地時代の逸話をつなぎ、三層の回遊路を名付ける。</td><td class="c mark-o">○</td></tr>
+          <tr><td>花街・和の祭事・「プチ・パリ」型の呼び名</td><td>神楽坂固有の文化。</td><td>持ち込まない。元町の洋の伝統と衝突する。</td><td class="c mark-x">×</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>元町に効く他エリアの事例</h3>
+    <div class="grid g3">
+      <div class="card"><div class="k">Ginza</div><h4>銀座デザイン協議会</h4><p class="small" style="color:var(--ink2)">民間の協議会が建物・看板・イベントまで個別に協議する。累計約1,120件のうち不調は数例のみ。<br><b>→ 協定の運用を「対話で協議する方式」に高める手本。</b></p></div>
+      <div class="card"><div class="k">Kobe / Hakodate</div><h4>全国の「元町」</h4><p class="small" style="color:var(--ink2)">2017年に元町SS会の若手が神戸を視察し、交流が始まった。函館元町は重要伝統的建造物群保存地区。正式な提携の記録はない。<br><b>→ 「開港元町」三都連携は新しく打ち出せる余地が大きい。</b></p></div>
+      <div class="card"><div class="k">Yanesen</div><h4>地域雑誌「谷根千」</h4><p class="small" style="color:var(--ink2)">1984〜2009年に全94号。誌名がそのまま地名として定着した。<br><b>→ 編集による発信が街の名前そのものをつくる。季刊ZINEの根拠。</b></p></div>
+      <div class="card"><div class="k">Jiyugaoka</div><h4>女神まつり・まちづくり会社</h4><p class="small" style="color:var(--ink2)">2日間で50万人以上。組合が出資するまちづくり会社で財源をつくっている。<br><b>→ 自主財源の仕組みは参考に。ブランド低下は反面教師。</b></p></div>
+      <div class="card"><div class="k">Kawagoe</div><h4>町づくり規範</h4><p class="small" style="color:var(--ink2)">1988年から、商業者が建替えを自主審査している。市の観光入込は約719万人（令和5年）。<br><b>→ 商業者が主体の自主ルールという点で、元町と同じ構図。</b></p></div>
+      <div class="card"><div class="k">Kuramae</div><h4>台東モノマチ</h4><p class="small" style="color:var(--ink2)">工房を公開するイベント。2011年に16社で始まり、延べ10万人超（推定）に成長した。<br><b>→ 洋菓子・靴・レースの「手しごと公開」に応用できる。</b></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 06 PLAN ================= -->
+<section class="sec" id="plan">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">06</span><h2>施策の全体像</h2><span class="en">Integrated Plan</span></div>
+    <p class="lead">一度の取材から、ウェブ・SNS・雑誌・サイネージまで素材を使い回します。<b>「1取材 → 多展開」</b>で費用を抑えながら、来街者を認知から再訪まで一本の流れで導きます。</p>
+
+    <figure class="figure">
+      <svg viewBox="0 0 1060 330" class="svgtext" role="img" aria-label="来街者の流れと担当：認知・興味・来街・購買・再訪の5段階">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="var(--muted)"/></marker>
+        </defs>
+        <g font-size="14" font-weight="700" text-anchor="middle">
+          <g><path d="M10 40 h180 l20 40 l-20 40 h-180 l20 -40z" fill="var(--navy)"/><text x="110" y="76" fill="var(--paper)">認知</text><text x="110" y="96" font-size="11" font-weight="400" fill="var(--paper)">知る</text></g>
+          <g><path d="M220 40 h180 l20 40 l-20 40 h-180 l20 -40z" fill="var(--navy2)"/><text x="320" y="76" fill="var(--paper)">興味</text><text x="320" y="96" font-size="11" font-weight="400" fill="var(--paper)">行きたくなる</text></g>
+          <g><path d="M430 40 h180 l20 40 l-20 40 h-180 l20 -40z" fill="var(--green)"/><text x="530" y="76" fill="var(--paper)">来街</text><text x="530" y="96" font-size="11" font-weight="400" fill="var(--paper)">歩く・回遊する</text></g>
+          <g><path d="M640 40 h180 l20 40 l-20 40 h-180 l20 -40z" fill="var(--gold)"/><text x="740" y="76" fill="#1d1d1d">購買</text><text x="740" y="96" font-size="11" font-weight="400" fill="#1d1d1d">買う・体験する</text></g>
+          <g><path d="M850 40 h180 l20 40 l-20 40 h-180 l20 -40z" fill="var(--brick)"/><text x="950" y="76" fill="var(--paper)">再訪</text><text x="950" y="96" font-size="11" font-weight="400" fill="var(--paper)">また来る・広める</text></g>
+        </g>
+        <g font-size="12" fill="var(--ink2)" text-anchor="middle">
+          <text x="110" y="150">駅サイネージ・雑誌</text><text x="110" y="168">アド街・小紅書</text>
+          <text x="320" y="150">店主取材・ZINE</text><text x="320" y="168">縦型動画・ウェブ記事</text>
+          <text x="530" y="150">周遊マップ・謎解き</text><text x="530" y="168">エリア連携イベント</text>
+          <text x="740" y="150">限定品・工房体験</text><text x="740" y="168">免税・夜間営業</text>
+          <text x="950" y="150">LINEクーポン</text><text x="950" y="168">UGC再掲・会員</text>
+        </g>
+        <!-- owner bands -->
+        <rect x="10" y="200" width="1040" height="44" rx="10" fill="var(--tint2)"/>
+        <rect x="220" y="204" width="830" height="36" rx="8" fill="var(--navy)" opacity=".9"/>
+        <text x="635" y="227" font-size="13" fill="var(--paper)" text-anchor="middle" font-weight="700">ディシーワークス × CMJ ｜ ウェブ・取材・SNS・LINE・効果測定（常時・自社メディア）</text>
+        <rect x="10" y="252" width="1040" height="44" rx="10" fill="var(--tint)"/>
+        <rect x="10" y="256" width="620" height="36" rx="8" fill="var(--brick)" opacity=".9"/>
+        <text x="320" y="279" font-size="13" fill="var(--paper)" text-anchor="middle" font-weight="700">広告代理店 ｜ イベント制作・駅DOOH・仮設サイネージ（ピーク・有料メディア）</text>
+        <text x="840" y="279" font-size="12" fill="var(--ink2)" text-anchor="middle">共通のKPI・UTM付きQR・週次の定例</text>
+        <text x="530" y="320" font-size="12" fill="var(--muted)" text-anchor="middle">意思決定・景観協議・加盟店調整 ＝ 元町エスエス会</text>
+      </svg>
+      <figcaption>図1 来街者の流れと担当の分け方。常時の発信はディシーワークス×CMJ、ピークの集客は代理店が担い、同じKPIで連携します。</figcaption>
+    </figure>
+
+    <!-- A: Website -->
+    <h3 id="planA">A. 公式ウェブサイトのリニューアル <span class="tag dw">DW×CMJ</span></h3>
+    <div class="split">
+      <div>
+        <p>サイトを「告知の掲示板」から<b>「街の検索窓口＋読み物メディア」</b>に作り替えます。中心は<b>店舗データベース</b>です。各店が自分で更新し、事務局が承認してから公開します。Googleビジネスプロフィールと情報を揃え、検索・地図・AI検索のどこからでも正しい店舗情報が届くようにします。</p>
+        <ul class="clean">
+          <li><b>店舗検索</b>：業種・営業中・対応言語・免税・キャッシュレス・ペット同伴・修理対応で絞り込み</li>
+          <li><b>デジタルマップ</b>：元町通り・仲通り・河岸通り、山手・中華街への導線</li>
+          <li><b>イベントカレンダー</b>：チャーミングセールなどは毎年同じURLで更新し、検索の評価を積み上げる</li>
+          <li><b>読み物</b>：店主インタビュー「元町の手」、元町の歴史、季節のガイド</li>
+          <li><b>4言語</b>：英語・繁体字・簡体字・韓国語。消費額の大きさから繁体字を優先</li>
+          <li><b>土台</b>：ページごとの固有タイトル、構造化データ（店舗・イベント・記事）、GA4、アクセシビリティ（JIS X 8341-3 AAが目標）</li>
+        </ul>
+      </div>
+      <figure class="figure" style="margin:0">
+        <svg viewBox="0 0 420 330" class="svgtext" role="img" aria-label="新サイトのトップページイメージ（PCとスマートフォン）">
+          <!-- desktop -->
+          <rect x="4" y="10" width="330" height="230" rx="10" fill="var(--paper)" stroke="var(--line)" stroke-width="2"/>
+          <rect x="4" y="10" width="330" height="20" rx="10" fill="var(--tint)"/>
+          <circle cx="18" cy="20" r="3.5" fill="var(--brick)"/><circle cx="30" cy="20" r="3.5" fill="var(--gold)"/><circle cx="42" cy="20" r="3.5" fill="var(--green)"/>
+          <text x="20" y="48" font-size="10" font-family="Cormorant Garamond,serif" fill="var(--navy)" letter-spacing="1.5">YOKOHAMA MOTOMACHI</text>
+          <text x="318" y="48" font-size="8" fill="var(--muted)" text-anchor="end">JP | EN | 繁 | 简 | 한</text>
+          <rect x="16" y="56" width="306" height="92" rx="6" fill="var(--navy)"/>
+          <path d="M16 130 C 80 110, 140 120, 200 112 S 290 104, 322 116 L322 148 L16 148Z" fill="var(--navy2)"/>
+          <text x="30" y="88" font-size="14" font-weight="700" fill="var(--paper)">日本の“洋”は、</text>
+          <text x="30" y="108" font-size="14" font-weight="700" fill="var(--paper)">この通りから始まった。</text>
+          <rect x="30" y="118" width="120" height="18" rx="9" fill="var(--paper)"/><text x="40" y="131" font-size="9" fill="var(--muted)">お店・カテゴリを探す</text>
+          <g font-size="8" fill="var(--ink2)">
+            <rect x="16" y="158" width="96" height="70" rx="5" fill="var(--tint)"/><rect x="16" y="158" width="96" height="40" rx="5" fill="var(--gold)" opacity=".5"/><text x="22" y="212">元町の手 vol.12</text><text x="22" y="222" fill="var(--muted)">インタビュー</text>
+            <rect x="121" y="158" width="96" height="70" rx="5" fill="var(--tint)"/><rect x="121" y="158" width="96" height="40" rx="5" fill="var(--green)" opacity=".45"/><text x="127" y="212">秋のチャーミングセール</text><text x="127" y="222" fill="var(--muted)">イベント</text>
+            <rect x="226" y="158" width="96" height="70" rx="5" fill="var(--tint)"/><rect x="226" y="158" width="96" height="40" rx="5" fill="var(--brick)" opacity=".4"/><text x="232" y="212">山手から歩く半日コース</text><text x="232" y="222" fill="var(--muted)">ガイド</text>
+          </g>
+          <!-- phone -->
+          <rect x="300" y="96" width="114" height="226" rx="16" fill="var(--paper)" stroke="var(--ink2)" stroke-width="2.5"/>
+          <rect x="340" y="104" width="34" height="5" rx="2.5" fill="var(--line)"/>
+          <text x="312" y="128" font-size="9" font-weight="700" fill="var(--navy)">お店をさがす</text>
+          <g font-size="7.5" fill="var(--ink2)">
+            <rect x="310" y="136" width="30" height="13" rx="6.5" fill="var(--navy)"/><text x="315" y="145" fill="var(--paper)">営業中</text>
+            <rect x="344" y="136" width="26" height="13" rx="6.5" fill="var(--tint)"/><text x="349" y="145">免税</text>
+            <rect x="374" y="136" width="32" height="13" rx="6.5" fill="var(--tint)"/><text x="379" y="145">ペットOK</text>
+          </g>
+          <rect x="310" y="156" width="96" height="66" rx="6" fill="var(--tint2)"/>
+          <path d="M310 196 L406 176" stroke="var(--gold)" stroke-width="5"/><path d="M340 156 L352 222" stroke="var(--line)" stroke-width="3"/>
+          <circle cx="333" cy="190" r="4" fill="var(--brick)"/><circle cx="366" cy="184" r="4" fill="var(--brick)"/><circle cx="392" cy="179" r="4" fill="var(--brick)"/>
+          <g font-size="8" fill="var(--ink)">
+            <rect x="310" y="230" width="96" height="26" rx="5" fill="var(--tint)"/><text x="316" y="242" font-weight="700">レースの店 ●営業中</text><text x="316" y="252" font-size="7" fill="var(--muted)">EN/繁 対応・免税</text>
+            <rect x="310" y="262" width="96" height="26" rx="5" fill="var(--tint)"/><text x="316" y="274" font-weight="700">洋菓子の店 ●営業中</text><text x="316" y="284" font-size="7" fill="var(--muted)">EN 対応・配送</text>
+          </g>
+          <rect x="310" y="296" width="96" height="16" rx="8" fill="var(--green)"/><text x="358" y="307" font-size="8" fill="var(--paper)" text-anchor="middle">LINEでクーポン</text>
+        </svg>
+        <figcaption>図2 新サイトのイメージ（PCとスマートフォン）。店舗の絞り込み・地図・読み物を中心に据えます。</figcaption>
+      </figure>
+    </div>
+
+    <figure class="figure">
+      <svg viewBox="0 0 1060 210" class="svgtext" role="img" aria-label="新サイトの構成図">
+        <rect x="455" y="10" width="150" height="38" rx="8" fill="var(--navy)"/><text x="530" y="34" font-size="14" fill="var(--paper)" text-anchor="middle" font-weight="700">トップ</text>
+        <g stroke="var(--line)" stroke-width="2" fill="none"><path d="M530 48 V70 H70 V90 M530 70 H990 V90 M190 70 V90 M310 70 V90 M430 70 V90 M550 70 V90 M670 70 V90 M790 70 V90 M890 70 V90"/></g>
+        <g font-size="12" text-anchor="middle">
+          <g><rect x="10" y="90" width="120" height="44" rx="8" fill="var(--paper)" stroke="var(--navy)"/><text x="70" y="110" fill="var(--ink)" font-weight="700">店舗検索</text><text x="70" y="126" fill="var(--muted)" font-size="10">店舗詳細・GBP連携</text></g>
+          <g><rect x="140" y="90" width="100" height="44" rx="8" fill="var(--paper)" stroke="var(--navy)"/><text x="190" y="110" fill="var(--ink)" font-weight="700">マップ</text><text x="190" y="126" fill="var(--muted)" font-size="10">回遊ルート</text></g>
+          <g><rect x="250" y="90" width="120" height="44" rx="8" fill="var(--paper)" stroke="var(--navy)"/><text x="310" y="110" fill="var(--ink)" font-weight="700">イベント</text><text x="310" y="126" fill="var(--muted)" font-size="10">毎年同じURL</text></g>
+          <g><rect x="380" y="90" width="100" height="44" rx="8" fill="var(--gold)"/><text x="430" y="110" fill="#1d1d1d" font-weight="700">読み物</text><text x="430" y="126" fill="#1d1d1d" font-size="10">元町の手・歴史</text></g>
+          <g><rect x="490" y="90" width="120" height="44" rx="8" fill="var(--paper)" stroke="var(--navy)"/><text x="550" y="110" fill="var(--ink)" font-weight="700">来街ガイド</text><text x="550" y="126" fill="var(--muted)" font-size="10">アクセス・FAQ・免税</text></g>
+          <g><rect x="620" y="90" width="100" height="44" rx="8" fill="var(--paper)" stroke="var(--navy)"/><text x="670" y="110" fill="var(--ink)" font-weight="700">元町について</text><text x="670" y="126" fill="var(--muted)" font-size="10">協定・まち並み</text></g>
+          <g><rect x="730" y="90" width="120" height="44" rx="8" fill="var(--paper)" stroke="var(--navy)"/><text x="790" y="110" fill="var(--ink)" font-weight="700">お知らせ</text><text x="790" y="126" fill="var(--muted)" font-size="10">プレス・リリース</text></g>
+          <g><rect x="840" y="90" width="100" height="44" rx="8" fill="var(--paper)" stroke="var(--brick)" transform="translate(20,0)"/><text x="910" y="110" fill="var(--ink)" font-weight="700">加盟店向け</text><text x="910" y="126" fill="var(--muted)" font-size="10">更新・素材</text></g>
+          <g><rect x="960" y="90" width="90" height="44" rx="8" fill="var(--green)" transform="translate(0,0)"/><text x="1005" y="110" fill="var(--paper)" font-weight="700">4言語</text><text x="1005" y="126" fill="var(--paper)" font-size="10">英・繁・简・한</text></g>
+        </g>
+        <text x="530" y="170" font-size="12" fill="var(--ink2)" text-anchor="middle">店舗データベースが土台：各店が自店情報を更新 → 事務局が承認 → サイト・Googleマップ・サイネージに同時反映</text>
+        <text x="530" y="192" font-size="11" fill="var(--muted)" text-anchor="middle">CMSは現行と同じWordPressの拡張を想定（運用の継続性と費用を重視）</text>
+      </svg>
+      <figcaption>図3 新サイトの構成。</figcaption>
+    </figure>
+
+    <div class="grid g4">
+      <div class="card flat"><div class="k">Step 1 ・ 1か月</div><h4>診断</h4><p class="small" style="color:var(--ink2)">実機での速度測定、検索順位、店舗データの棚卸し</p></div>
+      <div class="card flat"><div class="k">Step 2 ・ 〜2027年2月</div><h4>応急改善</h4><p class="small" style="color:var(--ink2)">固有タイトル、GA4、英語・繁体字の来街ガイドLP（EXPOの開幕前に）</p></div>
+      <div class="card flat"><div class="k">Step 3 ・ 4〜6か月</div><h4>本格リニューアル</h4><p class="small" style="color:var(--ink2)">店舗データベース・地図・カレンダー・読み物。秋のセール前に公開</p></div>
+      <div class="card flat"><div class="k">Step 4 ・ 2年目〜</div><h4>運用の高度化</h4><p class="small" style="color:var(--ink2)">Googleビジネスプロフィールの一括運用、LINE会員、クーポン連動</p></div>
+    </div>
+
+    <!-- B: Interview -->
+    <h3 id="planB">B. 取材インタビュー連載「元町の手」と季刊ZINE <span class="tag dw">DW×CMJ</span></h3>
+    <div class="split">
+      <div>
+        <p>本提案の<b>中心となるコンテンツ</b>です。開港以来の老舗、受け継ぐ若い世代、仲通りの職人。<b>「人と手しごと」</b>を月2本取材し、一つの取材を次の5形式に展開します。</p>
+        <div class="tbl"><table>
+          <thead><tr><th>展開先</th><th>形式</th><th>狙い</th></tr></thead>
+          <tbody>
+            <tr><td>公式サイト</td><td>長文記事（日本語・英語・繁体字）</td><td>検索とAI検索の一次情報になる</td></tr>
+            <tr><td>Instagram</td><td>カルーセル（保存されるガイド型）</td><td>保存数を増やし、検索の受け皿にする</td></tr>
+            <tr><td>TikTok / Reels / Shorts</td><td>店主が出演する60秒の縦型動画</td><td>新しい層との接点</td></tr>
+            <tr><td>ZINE『MOTOMACHI JOURNAL』</td><td>季刊の紙冊子（店頭・ホテル・大さん橋で配布）</td><td>谷根千の方式。品位ある紙の媒体</td></tr>
+            <tr><td>雑誌・メディア</td><td>素材の提供・企画の持ち込み</td><td>取材費を抑えたタイアップ</td></tr>
+          </tbody>
+        </table></div>
+        <p class="small" style="margin-top:10px">取材はまず発信力のある近沢レース店・キタムラ・霧笛楼などから始め、仲通りの職人や若い後継者へ広げます（店舗の了承が前提）。</p>
+      </div>
+      <figure class="figure" style="margin:0">
+        <svg viewBox="0 0 400 340" class="svgtext" role="img" aria-label="季刊ZINE『MOTOMACHI JOURNAL』の表紙イメージと記事ページ">
+          <g transform="rotate(-4 120 170)">
+            <rect x="20" y="20" width="200" height="280" fill="var(--paper)" stroke="var(--line)" stroke-width="2"/>
+            <rect x="34" y="34" width="172" height="150" fill="var(--navy)"/>
+            <circle cx="120" cy="104" r="34" fill="var(--gold)" opacity=".9"/>
+            <path d="M80 150 q40 -50 80 0" fill="none" stroke="var(--paper)" stroke-width="3"/>
+            <path d="M92 104 h56 M100 92 h40 M100 116 h40" stroke="var(--navy)" stroke-width="3"/>
+            <text x="34" y="210" font-family="Cormorant Garamond,serif" font-size="22" fill="var(--navy)">MOTOMACHI</text>
+            <text x="34" y="232" font-family="Cormorant Garamond,serif" font-size="22" fill="var(--navy)">JOURNAL</text>
+            <text x="34" y="256" font-size="11" fill="var(--brick)" font-weight="700">特集｜レースと港の150年</text>
+            <text x="34" y="276" font-size="9" fill="var(--muted)">vol.01 Spring 2027 ／ 元町エスエス会</text>
+          </g>
+          <g transform="translate(210,40) rotate(5 90 130)">
+            <rect x="0" y="0" width="170" height="250" fill="var(--paper)" stroke="var(--line)" stroke-width="2"/>
+            <rect x="14" y="14" width="142" height="96" fill="var(--tint)"/>
+            <circle cx="60" cy="58" r="22" fill="var(--brick)" opacity=".45"/>
+            <rect x="92" y="38" width="50" height="50" fill="var(--sky)"/>
+            <text x="14" y="130" font-size="10" fill="var(--brick)" font-weight="700">元町の手 vol.01</text>
+            <text x="14" y="148" font-size="12" fill="var(--ink)" font-weight="700">「針一本で、街の記憶を</text>
+            <text x="14" y="164" font-size="12" fill="var(--ink)" font-weight="700">  縫い続ける」</text>
+            <g fill="var(--line)"><rect x="14" y="176" width="142" height="4"/><rect x="14" y="186" width="130" height="4"/><rect x="14" y="196" width="142" height="4"/><rect x="14" y="206" width="110" height="4"/><rect x="14" y="216" width="138" height="4"/><rect x="14" y="226" width="96" height="4"/></g>
+          </g>
+        </svg>
+        <figcaption>図4 季刊ZINEのイメージ（表紙・記事見出しは例）。</figcaption>
+      </figure>
+    </div>
+
+    <!-- C: SNS -->
+    <h3 id="planC">C. SNS支援 ― 街全体のアカウントを「束ねる」 <span class="tag dw">DW×CMJ</span></h3>
+    <div class="split">
+      <div>
+        <p>公式Instagram（約2.8万）とLINE（約7,800人）という基盤はすでにあります。課題は<b>個店との差</b>と<b>縦型動画・インバウンド対応の空白</b>です。大きく再生されるのは<b>店主本人が出る縦型動画</b>と<b>第三者による紹介</b>だという事例にならい、公式アカウントは「常連を育てて来店につなげる」役割に集中させます。</p>
+        <div class="tbl"><table>
+          <thead><tr><th>チャネル</th><th>役割</th><th>頻度の目安</th></tr></thead>
+          <tbody>
+            <tr><td>Instagram</td><td>街の顔。検索の受け皿</td><td>月12本＋ストーリーズ</td></tr>
+            <tr><td>LINE公式</td><td>来店と再訪。クーポン、デジタルスタンプ</td><td>月2〜4回</td></tr>
+            <tr><td>TikTok / Shorts（新設）</td><td>店主インタビューを転用した縦型動画</td><td>月4〜8本</td></tr>
+            <tr><td>小紅書（RED）・英語</td><td>横浜市のRED発信と連携し、旅行者の投稿者（KOC）を招く</td><td>セール・季節ごと</td></tr>
+            <tr><td>X / Threads</td><td>速報・転用</td><td>随時</td></tr>
+          </tbody>
+        </table></div>
+        <h4 style="margin-top:16px">無理なく続く運用体制</h4>
+        <ul class="clean">
+          <li>エスエス会の広報担当1〜2名が承認のみ（月2時間程度）。制作と運用は私たち</li>
+          <li>店舗の参加は段階的に：素材を出す → 公式とのコラボ投稿 → 自店での発信</li>
+          <li>撮影・投稿の講座を年2回。テンプレートとハッシュタグ一覧を共有</li>
+          <li>キタムラが毎日行うセール中のインスタライブを、ほかの店にも広げる</li>
+        </ul>
+      </div>
+      <figure class="figure" style="margin:0">
+        <svg viewBox="0 0 400 380" class="svgtext" role="img" aria-label="Instagram投稿と縦型動画のイメージ">
+          <!-- phone 1: carousel -->
+          <rect x="10" y="10" width="180" height="360" rx="22" fill="var(--paper)" stroke="var(--ink2)" stroke-width="2.5"/>
+          <circle cx="34" cy="44" r="10" fill="var(--navy)"/><text x="50" y="48" font-size="10" font-weight="700" fill="var(--ink)">yokohamamotomachi</text>
+          <rect x="18" y="62" width="164" height="164" fill="var(--tint)"/>
+          <rect x="18" y="62" width="164" height="164" fill="var(--gold)" opacity=".35"/>
+          <text x="100" y="128" font-size="14" font-weight="700" fill="var(--navy)" text-anchor="middle">元町で見つける</text>
+          <text x="100" y="148" font-size="14" font-weight="700" fill="var(--navy)" text-anchor="middle">一生ものの革小物</text>
+          <text x="100" y="172" font-size="10" fill="var(--ink2)" text-anchor="middle">保存して歩こう →</text>
+          <g fill="var(--line)"><circle cx="86" cy="236" r="3" fill="var(--navy)"/><circle cx="96" cy="236" r="3"/><circle cx="106" cy="236" r="3"/><circle cx="116" cy="236" r="3"/></g>
+          <text x="22" y="262" font-size="16" fill="var(--brick)">♥</text><text x="44" y="262" font-size="14" fill="var(--ink2)">◯</text><text x="160" y="262" font-size="14" fill="var(--ink2)">⌑</text>
+          <text x="22" y="284" font-size="9" fill="var(--ink)">元町の手 vol.05｜三代目が語る</text>
+          <text x="22" y="298" font-size="9" fill="var(--ink)">「修理して、また持ち主へ」</text>
+          <text x="22" y="316" font-size="9" fill="var(--navy2)">#元町の手 #横浜元町 #motomachi</text>
+          <!-- phone 2: reel -->
+          <rect x="210" y="10" width="180" height="360" rx="22" fill="var(--navy)" stroke="var(--ink2)" stroke-width="2.5"/>
+          <rect x="222" y="40" width="156" height="250" rx="8" fill="var(--navy2)"/>
+          <circle cx="300" cy="140" r="38" fill="var(--paper)" opacity=".25"/>
+          <path d="M290 122 L316 140 L290 158Z" fill="var(--paper)"/>
+          <text x="226" y="306" font-size="11" fill="var(--paper)" font-weight="700">60秒で分かる、靴づくり</text>
+          <text x="226" y="324" font-size="9" fill="var(--paper)" opacity=".85">店主が案内する工房の裏側</text>
+          <text x="226" y="344" font-size="9" fill="var(--gold)">♫ 元町 Motomachi Sounds</text>
+          <g fill="var(--paper)" font-size="12" text-anchor="middle"><text x="368" y="210">♥</text><text x="368" y="236">◯</text><text x="368" y="262">➤</text></g>
+        </svg>
+        <figcaption>図5 SNS投稿のイメージ。保存されるガイド型の投稿（左）と、店主が出演する縦型動画（右）。</figcaption>
+      </figure>
+    </div>
+
+    <!-- D: Media -->
+    <h3 id="planD">D. 散歩雑誌・メディアとのコラボ <span class="tag dw">DW×CMJ</span><span class="tag pt">メディア</span></h3>
+    <p>調査の結果、<b>「散歩の達人／さんたつ」では元町を主題にした記事が見当たりませんでした</b>。散歩メディアにとって元町は手つかずの題材です。取材・制作を私たちが担うことで、タイアップ費用を抑えて実現します。</p>
+    <div class="grid g3">
+      <div class="card plan pt"><div class="k">Plan D-1 ・ 相性◎</div><h4>さんたつ × 元町「老舗の手しごと散歩」</h4><p class="small" style="color:var(--ink2)">Web連載とイラストマップ。散歩の達人は八王子市・相模原市と観光パンフレットを共同制作した実績がある。</p></div>
+      <div class="card plan pt"><div class="k">Plan D-2 ・ 相性◎</div><h4>「ことりっぷ 横浜元町・山手」冊子</h4><p class="small" style="color:var(--ink2)">横浜市鶴見区・西区と冊子を共同制作した前例がある。中区・観光協会と共同で発行し、ホテル・大さん橋・駅で配布。</p></div>
+      <div class="card plan pt"><div class="k">Plan D-3 ・ 相性○</div><h4>ウォーカープラス ニュースタイアップ</h4><p class="small" style="color:var(--ink2)">チャーミングセールに合わせた「アド街ランキングを歩く」散歩ツアーとスタンプラリーの告知。目安は60万〜90万円。</p></div>
+      <div class="card plan pt"><div class="k">Plan D-4</div><h4>「ハマトラ再解釈」を編集部に提案</h4><p class="small" style="color:var(--ink2)">POPEYE、&amp;Premium、Hanakoなどへ、編集部の自主企画として扱ってもらう前提で持ち込む。Webタイアップは1誌に絞る。</p></div>
+      <div class="card plan pt"><div class="k">Plan D-5</div><h4>地域メディアへのPR</h4><p class="small" style="color:var(--ink2)">ヨコハマ経済新聞・カナロコ・横浜STORYへのプレスリリースと取材誘致。費用はほぼかからない。</p></div>
+      <div class="card plan pt"><div class="k">Plan D-6</div><h4>アド街の実績を二次活用</h4><p class="small" style="color:var(--ink2)">2回の1位を「ランキングを歩く」企画やサイト・マップに転用（番組側の権利確認が前提）。</p></div>
+    </div>
+
+    <!-- E: Events & Signage -->
+    <h3 id="planE">E. イベント・サイネージ <span class="tag ag">広告代理店</span><span class="tag dw">DW×CMJ（告知・効果測定）</span></h3>
+    <p>単独の商店街で百万人規模を集めるのは現実的ではありません。<b>横浜の大型イベント（赤レンガ124万人、ヨルノヨ100万人、春節100万人超）と会期を合わせ、元町を回遊先として組み込む</b>のが最も費用対効果の高い方法です。</p>
+    <div class="grid g2">
+      <div class="card plan ag"><div class="k">Event 1 ・ 2月・9月</div><h4>チャーミング・ナイト</h4><p class="small" style="color:var(--ink2)">セール初日の夜に延長営業し、限定品と予約受付を用意。生演奏（ジャズ・室内楽）を添える。<b>セールの名称・時期・正価の信頼は変えない。</b></p></div>
+      <div class="card plan ag"><div class="k">Event 2 ・ 通年</div><h4>元町アーカイブ・ウォーク（謎解き散策）</h4><p class="small" style="color:var(--ink2)">老舗と山手の洋館を巡る建築・歴史ツアーに謎解きを組み合わせる。周遊型の謎解きは20〜30代が85%（SCRAPの例）。</p></div>
+      <div class="card plan ag"><div class="k">Event 3 ・ 12月</div><h4>元町クリスマス・プロムナード</h4><p class="small" style="color:var(--ink2)">赤レンガとヨルノヨの来場者を受け止める。各店のウィンドウをアドベントカレンダーに見立て、毎日1店ずつ限定品を出す。山手西洋館の「世界のクリスマス」と連動。</p></div>
+      <div class="card plan ag"><div class="k">Event 4 ・ 年4回</div><h4>MOTOMACHI LINEスタンプラリー</h4><p class="small" style="color:var(--ink2)">買わなくても参加でき、購入すると抽選が加算される。大阪府のデジタル回遊支援では、支援を受けた商店街の60.2%が「来街者が増えた」と回答。</p></div>
+    </div>
+
+    <h4 style="margin-top:26px">サイネージは「3層」で景観と両立</h4>
+    <div class="split">
+      <figure class="figure" style="margin:0">
+        <svg viewBox="0 0 460 260" class="svgtext" role="img" aria-label="サイネージ3層：駅、店舗内、期間限定の仮設">
+          <!-- layer 1 station -->
+          <rect x="10" y="20" width="140" height="200" rx="10" fill="var(--tint2)"/>
+          <text x="80" y="44" font-size="12" font-weight="700" fill="var(--navy)" text-anchor="middle">① 駅</text>
+          <rect x="30" y="60" width="100" height="62" rx="4" fill="var(--navy)"/>
+          <text x="80" y="88" font-size="9" fill="var(--paper)" text-anchor="middle">日本の“洋”は、</text>
+          <text x="80" y="102" font-size="9" fill="var(--paper)" text-anchor="middle">この通りから。</text>
+          <rect x="30" y="128" width="100" height="6" fill="var(--line)"/>
+          <text x="80" y="160" font-size="10" fill="var(--ink2)" text-anchor="middle">元町・中華街駅</text>
+          <text x="80" y="176" font-size="10" fill="var(--ink2)" text-anchor="middle">ホームドアビジョン</text>
+          <text x="80" y="192" font-size="10" fill="var(--ink2)" text-anchor="middle">横浜駅・東急線</text>
+          <!-- layer 2 window -->
+          <rect x="160" y="20" width="140" height="200" rx="10" fill="var(--tint)"/>
+          <text x="230" y="44" font-size="12" font-weight="700" fill="var(--brick)" text-anchor="middle">② 店舗内</text>
+          <path d="M175 58 h110 l-8 14 h-94z" fill="var(--brick)"/>
+          <rect x="182" y="74" width="96" height="70" fill="var(--sky)" stroke="var(--navy)"/>
+          <rect x="196" y="86" width="40" height="46" rx="3" fill="var(--navy)"/><text x="216" y="113" font-size="7" fill="var(--paper)" text-anchor="middle">QR→記事</text>
+          <rect x="244" y="96" width="24" height="36" fill="var(--gold)" opacity=".6"/>
+          <text x="230" y="168" font-size="10" fill="var(--ink2)" text-anchor="middle">ウィンドウ内の</text>
+          <text x="230" y="184" font-size="10" fill="var(--ink2)" text-anchor="middle">小型・低輝度画面</text>
+          <text x="230" y="200" font-size="10" fill="var(--ink2)" text-anchor="middle">取材動画を放映</text>
+          <!-- layer 3 temporary -->
+          <rect x="310" y="20" width="140" height="200" rx="10" fill="var(--tint2)"/>
+          <text x="380" y="44" font-size="12" font-weight="700" fill="var(--green)" text-anchor="middle">③ 期間限定</text>
+          <rect x="342" y="62" width="76" height="56" rx="3" fill="var(--paper)" stroke="var(--green)" stroke-width="2"/>
+          <path d="M350 108 l14 -18 l10 10 l12 -16 l20 24z" fill="var(--green)" opacity=".5"/>
+          <line x1="352" y1="118" x2="352" y2="148" stroke="var(--green)" stroke-width="3"/><line x1="408" y1="118" x2="408" y2="148" stroke="var(--green)" stroke-width="3"/>
+          <text x="380" y="168" font-size="10" fill="var(--ink2)" text-anchor="middle">歩行者天国の日のみ</text>
+          <text x="380" y="184" font-size="10" fill="var(--ink2)" text-anchor="middle">古写真アーカイブ展示</text>
+          <text x="380" y="200" font-size="10" fill="var(--ink2)" text-anchor="middle">（社会実験）</text>
+          <text x="230" y="248" font-size="11" fill="var(--muted)" text-anchor="middle">通りに常設の大型LEDは置かない ― 協定と景観を最優先</text>
+        </svg>
+        <figcaption>図6 サイネージの3層構成。</figcaption>
+      </figure>
+      <div>
+        <div class="tbl"><table>
+          <thead><tr><th>媒体</th><th>費用の目安</th></tr></thead>
+          <tbody>
+            <tr><td>横浜駅 大型ビジョン</td><td>1週間・1枠40万円（税別）、15秒ロール1枠6万円</td></tr>
+            <tr><td>元町・中華街駅 ホームドアビジョン</td><td>32インチ×32面。要見積</td></tr>
+            <tr><td>店内用43型ディスプレイ</td><td>1台20万〜50万円程度（要見積）</td></tr>
+            <tr><td>屋外用55型（仮設）</td><td>1台100万〜300万円程度（要見積）</td></tr>
+          </tbody>
+        </table></div>
+        <p class="small" style="margin-top:10px">元町通り街づくり協定では、屋外広告物の設置・取替えは届出と事前協議の対象です。景観配慮を条件に個別協議する大阪・御堂筋の方式を参考に、まず期間限定の社会実験で検証し、常設するかどうかはエスエス会が判断します。すべての画面・印刷物にはUTM付きのQRを付け、効果を測ります。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 07 AREA ================= -->
+<section class="sec" id="area">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">07</span><h2>エリア連携 ― 元町を「回遊の結節点」に</h2><span class="en">Area Collaboration</span></div>
+    <div class="split">
+      <figure class="figure" style="margin:0">
+        <svg viewBox="0 0 520 440" class="svgtext" role="img" aria-label="元町を中心とした周辺エリアの連携マップ（模式図）">
+          <rect x="0" y="0" width="520" height="440" rx="12" fill="var(--tint2)"/>
+          <!-- sea -->
+          <path d="M300 0 H520 V440 H420 C 400 360, 360 300, 380 230 C 395 170, 330 120, 300 0Z" fill="var(--sky)"/>
+          <text x="470" y="40" font-size="12" fill="var(--navy2)" text-anchor="middle" font-family="Cormorant Garamond,serif" font-style="italic">Yokohama Port</text>
+          <!-- Yamate hill -->
+          <path d="M120 300 C 180 250, 300 250, 360 300 L380 440 H100Z" fill="var(--green)" opacity=".18"/>
+          <!-- links -->
+          <g stroke="var(--brick)" stroke-width="2.5" stroke-dasharray="6 5" fill="none">
+            <path d="M230 250 L160 170"/><path d="M250 250 L330 190"/><path d="M240 270 L240 340"/><path d="M255 255 L410 120"/><path d="M220 255 L90 90"/><path d="M265 260 L420 300"/>
+          </g>
+          <!-- Motomachi -->
+          <circle cx="240" cy="258" r="40" fill="var(--brick)"/>
+          <text x="240" y="255" font-size="14" font-weight="700" fill="var(--paper)" text-anchor="middle">元町</text>
+          <text x="240" y="272" font-size="9" fill="var(--paper)" text-anchor="middle">Shopping Street</text>
+          <!-- nodes -->
+          <g font-size="11" text-anchor="middle">
+            <g><circle cx="150" cy="160" r="32" fill="var(--paper)" stroke="var(--brick)" stroke-width="2"/><text x="150" y="158" font-weight="700" fill="var(--ink)">中華街</text><text x="150" y="172" font-size="9" fill="var(--muted)">春節100万人超</text></g>
+            <g><circle cx="340" cy="180" r="32" fill="var(--paper)" stroke="var(--navy)" stroke-width="2"/><text x="340" y="178" font-weight="700" fill="var(--ink)">山下公園</text><text x="340" y="192" font-size="9" fill="var(--muted)">氷川丸・NG</text></g>
+            <g><circle cx="240" cy="360" r="34" fill="var(--paper)" stroke="var(--green)" stroke-width="2"/><text x="240" y="356" font-weight="700" fill="var(--ink)">山手</text><text x="240" y="370" font-size="9" fill="var(--muted)">西洋館7館・港の見える丘</text></g>
+            <g><circle cx="420" cy="110" r="34" fill="var(--paper)" stroke="var(--navy)" stroke-width="2"/><text x="420" y="106" font-weight="700" fill="var(--ink)">大さん橋</text><text x="420" y="120" font-size="9" fill="var(--muted)">クルーズ209回</text></g>
+            <g><circle cx="80" cy="80" r="34" fill="var(--paper)" stroke="var(--navy)" stroke-width="2"/><text x="80" y="76" font-weight="700" fill="var(--ink)">みなとみらい</text><text x="80" y="90" font-size="9" fill="var(--muted)">赤レンガ・ヨルノヨ</text></g>
+            <g><circle cx="440" cy="310" r="38" fill="var(--paper)" stroke="var(--gold)" stroke-width="2.5"/><text x="440" y="304" font-weight="700" fill="var(--ink)">神戸・函館</text><text x="440" y="318" font-size="9" fill="var(--muted)">「開港元町」三都</text></g>
+          </g>
+          <!-- station markers -->
+          <g font-size="9" fill="var(--ink2)">
+            <rect x="170" y="225" width="16" height="16" rx="3" fill="var(--navy)"/><text x="178" y="237" fill="var(--paper)" text-anchor="middle" font-size="8">M</text><text x="150" y="252" text-anchor="middle">元町・中華街駅</text>
+            <rect x="160" y="300" width="16" height="16" rx="3" fill="var(--green)"/><text x="168" y="312" fill="var(--paper)" text-anchor="middle" font-size="8">JR</text><text x="140" y="330" text-anchor="middle">石川町駅</text>
+          </g>
+          <!-- EXPO -->
+          <g><rect x="16" y="380" width="180" height="44" rx="10" fill="var(--paper)" stroke="var(--green)" stroke-width="2" stroke-dasharray="4 3"/><text x="106" y="398" font-size="11" font-weight="700" fill="var(--green)" text-anchor="middle">GREEN×EXPO 2027</text><text x="106" y="414" font-size="9" fill="var(--muted)" text-anchor="middle">旧上瀬谷 → 都心の宿泊者</text></g>
+          <text x="500" y="430" font-size="9" fill="var(--muted)" text-anchor="end">※ 位置関係は模式図</text>
+        </svg>
+        <figcaption>図7 元町を中心とした連携マップ（模式図）。</figcaption>
+      </figure>
+      <div>
+        <div class="card plan" style="margin-bottom:14px"><div class="k">優先度 A</div><h4>元町 Garden Street 2027（EXPOの街なか版）</h4><p class="small" style="color:var(--ink2)">2026年春のセール装飾をすでにEXPOに向けた花のモチーフにしている。山手の「花と器のハーモニー」もEXPO連携の実績がある。4言語の来街ガイドと花のスタンプラリーで、都心に泊まる来場者を受け止める。</p></div>
+        <div class="card plan" style="margin-bottom:14px"><div class="k">優先度 A</div><h4>クルーズ・ウェルカム元町</h4><p class="small" style="color:var(--ink2)">寄港日に合わせて英語・繁体字のマップを大さん橋で配布し、免税の案内と配送サービスを紹介する。<b>元町にはまだ受け入れ施策がない空白領域</b>。</p></div>
+        <div class="card plan" style="margin-bottom:14px"><div class="k">優先度 A</div><h4>中華街 × 元町 2月共同キャンペーン</h4><p class="small" style="color:var(--ink2)">春節（100万人超）とチャーミングセール（約40万人）は同じ駅・同じ月。2021年にInstagramで共同キャンペーンを行った実績がある。神奈川県の「商店街魅力アップ」補助の連携要件にも合う。</p></div>
+        <div class="card plan" style="margin-bottom:14px"><div class="k">優先度 B</div><h4>山手 ⇄ 元町「坂でつながる季節の回遊」</h4><p class="small" style="color:var(--ink2)">西洋館の「世界のクリスマス」（7館・7か国）の展示国と元町の店を組み合わせる。アメリカ山公園（駅直結）から「上から入る」導線をつくる。</p></div>
+        <div class="card plan"><div class="k">優先度 B</div><h4>「開港元町」三都連携（横浜・神戸・函館）</h4><p class="small" style="color:var(--ink2)">相互フェア、老舗の相互ポップアップ出店、共通のデジタルスタンプ。費用が小さく、メディアに取り上げられやすい。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 08 YEAR ================= -->
+<section class="sec" id="year">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">08</span><h2>ロードマップと年間計画</h2><span class="en">Roadmap 2026–2028</span></div>
+    <p>EXPOの開幕（2027年3月19日）までに<b>「最低限の受け皿」</b>を整え、秋のセールに合わせて<b>本格的なサイトを公開</b>する二段構えです。</p>
+    <div class="figure" style="overflow-x:auto">
+      <div class="gantt">
+        <div class="row head"><div></div><div>26/12</div><div>27/1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>28/1</div><div>2</div><div>3</div></div>
+        <div class="row"><div class="lbl"><b>Phase 0</b> 合意形成・診断・人流計測</div><div class="bar b-g" style="grid-column:2 / span 3"></div></div>
+        <div class="row"><div class="lbl">ウェブ 応急改善＋多言語LP</div><div class="bar b-n" style="grid-column:3 / span 3"></div></div>
+        <div class="row"><div class="lbl">ウェブ 本格リニューアル</div><div class="bar b-n" style="grid-column:5 / span 6;opacity:.75"></div></div>
+        <div class="row"><div class="lbl">取材連載「元町の手」月2本</div><div class="bar b-n" style="grid-column:3 / span 15;opacity:.55"></div></div>
+        <div class="row"><div class="lbl">ZINE（季刊）</div><div style="grid-column:5"><div class="bar b-g"></div></div><div style="grid-column:8"><div class="bar b-g"></div></div><div style="grid-column:11"><div class="bar b-g"></div></div><div style="grid-column:14"><div class="bar b-g"></div></div></div>
+        <div class="row"><div class="lbl">SNS運用・縦型動画</div><div class="bar b-n" style="grid-column:3 / span 15;opacity:.4"></div></div>
+        <div class="row"><div class="lbl">雑誌コラボ・PR</div><div class="bar b-gr" style="grid-column:4 / span 4"></div><div class="bar b-gr" style="grid-column:10 / span 3"></div></div>
+        <div class="row"><div class="lbl">エリア連携（EXPO・クルーズ）</div><div class="bar b-gr" style="grid-column:5 / span 7;opacity:.8"></div></div>
+        <div class="row"><div class="lbl">イベント（代理店）</div><div style="grid-column:4"><div class="bar b-b"></div></div><div style="grid-column:11"><div class="bar b-b"></div></div><div style="grid-column:14"><div class="bar b-b"></div></div><div style="grid-column:16"><div class="bar b-b"></div></div></div>
+        <div class="row"><div class="lbl">補助金申請</div><div style="grid-column:2"><div class="bar b-g"></div></div><div class="bar b-g" style="grid-column:4 / span 3;opacity:.6"></div></div>
+        <div class="row"><div class="lbl small">主なマイルストーン</div><div class="ms" style="grid-column:4">春セール<br>春節</div><div class="ms" style="grid-column:5">EXPO<br>開幕</div><div class="ms" style="grid-column:7">ハマフェス</div><div class="ms" style="grid-column:11">秋セール<br>新サイト</div><div class="ms" style="grid-column:12">ハロウィン</div><div class="ms" style="grid-column:14">クリスマス</div><div class="ms" style="grid-column:16">春セール</div></div>
+      </div>
+    </div>
+
+    <h3>2027年 年間カレンダー（既存の催事＋強化ポイント）</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>時期</th><th>既存の催事・周辺の動き</th><th>本提案での強化</th></tr></thead>
+      <tbody>
+        <tr><td>2月</td><td>春のチャーミングセール／中華街の春節</td><td>中華街との共同キャンペーン、チャーミング・ナイト、LINEスタンプラリー①</td></tr>
+        <tr><td>3〜4月</td><td><b>GREEN×EXPO 開幕（3/19）</b>／Garden Party</td><td>Garden Street 2027、4言語の来街ガイド、ZINE創刊号</td></tr>
+        <tr><td>5〜6月</td><td>ハマフェス／港の見える丘のバラ／山手「花と器」</td><td>元町プログラムを「開港ストーリー」で格上げ、さんたつの連載開始</td></tr>
+        <tr><td>7〜8月</td><td>ピーターラビット企画／クルーズの繁忙期</td><td>クルーズ・ウェルカム、工房公開「クラフトウィーク」、スタンプラリー②</td></tr>
+        <tr><td>9月</td><td>秋のチャーミングセール</td><td><b>新サイト公開</b>、チャーミング・ナイト、アド街を歩くツアー</td></tr>
+        <tr><td>10月</td><td>元町ハロウィン（歩行者天国）</td><td>期間限定サイネージの社会実験（古写真アーカイブ）、スタンプラリー③</td></tr>
+        <tr><td>11〜12月</td><td>クリスマス／山手「世界のクリスマス」／赤レンガ</td><td>クリスマス・プロムナード（ウィンドウのアドベントカレンダー）、スタンプラリー④</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ================= 09 TARGET & TEAM ================= -->
+<section class="sec" id="team">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">09</span><h2>ターゲットと推進体制</h2><span class="en">Target &amp; Team</span></div>
+    <h3 style="margin-top:0">ターゲットの優先順位とペルソナ</h3>
+    <div class="grid g4">
+      <div class="card"><span class="tag ss">優先 A</span><h4 style="margin-top:8px">真由さん（38歳）</h4><p class="small" style="color:var(--ink2)">武蔵小杉在住。子どもとトイプードル連れ。東横線で1本。<br><b>「電車1本、終点は“一生もの”の街」</b><br>Instagram・LINE・東急線の車内</p></div>
+      <div class="card"><span class="tag ss">優先 A</span><h4 style="margin-top:8px">林さん（32歳）</h4><p class="small" style="color:var(--ink2)">台湾から8回目の訪日。街歩きが好き。<br><b>「1859年、日本の“洋”が始まった場所」</b><br>Instagram・繁体字ブロガー・Klook</p></div>
+      <div class="card"><span class="tag">優先 B</span><h4 style="margin-top:8px">葵さん（21歳）</h4><p class="small" style="color:var(--ink2)">池袋在住の大学生。古着・純喫茶好き。副都心線で1本。<br><b>「ハマトラ、元祖はここ」</b><br>TikTok・学生アンバサダー</p></div>
+      <div class="card"><span class="tag">優先 C</span><h4 style="margin-top:8px">Susanさん（63歳）</h4><p class="small" style="color:var(--ink2)">米国からのクルーズ客。半日の自由時間。<br><b>"Yokohama's original foreigners' shopping street since 1859"</b><br>寄港地ツアー・大さん橋・英語マップ</p></div>
+    </div>
+    <p class="note" style="margin-top:8px">基盤である地元の富裕層・シニア層には、娘・孫の世代へ「継承」を語る発信で接点を保ちます。</p>
+
+    <h3>推進体制</h3>
+    <figure class="figure">
+      <svg viewBox="0 0 1000 300" class="svgtext" role="img" aria-label="推進体制図">
+        <rect x="380" y="14" width="240" height="64" rx="12" fill="var(--gold)"/>
+        <text x="500" y="42" font-size="15" font-weight="700" fill="#1d1d1d" text-anchor="middle">協同組合 元町エスエス会</text>
+        <text x="500" y="62" font-size="11" fill="#1d1d1d" text-anchor="middle">意思決定・景観協議（街づくり室）・加盟店との調整</text>
+        <g stroke="var(--muted)" stroke-width="2" fill="none"><path d="M500 78 V110 H180 V130 M500 110 H820 V130 M500 110 V130"/></g>
+        <rect x="40" y="130" width="280" height="140" rx="12" fill="var(--navy)"/>
+        <text x="180" y="158" font-size="15" font-weight="700" fill="var(--paper)" text-anchor="middle">ディシーワークス × CMJ</text>
+        <text x="180" y="176" font-size="11" fill="var(--paper)" text-anchor="middle" opacity=".85">統括・常時の発信</text>
+        <g font-size="12" fill="var(--paper)"><text x="64" y="204">・プロジェクト統括・KPI管理</text><text x="64" y="224">・ウェブ制作・運用・多言語</text><text x="64" y="244">・取材インタビュー・ZINE・SNS</text><text x="64" y="264">・メディア／PR窓口</text></g>
+        <rect x="360" y="130" width="280" height="140" rx="12" fill="var(--paper)" stroke="var(--green)" stroke-width="2"/>
+        <text x="500" y="158" font-size="15" font-weight="700" fill="var(--green)" text-anchor="middle">連携パートナー</text>
+        <g font-size="12" fill="var(--ink2)"><text x="384" y="190">・中華街／山手／ハマフェス実行委員会</text><text x="384" y="210">・散歩の達人・ことりっぷ等</text><text x="384" y="230">・横浜市・観光協会・県（補助金）</text><text x="384" y="250">・神戸元町・函館元町</text></g>
+        <rect x="680" y="130" width="280" height="140" rx="12" fill="var(--brick)"/>
+        <text x="820" y="158" font-size="15" font-weight="700" fill="var(--paper)" text-anchor="middle">広告代理店</text>
+        <text x="820" y="176" font-size="11" fill="var(--paper)" text-anchor="middle" opacity=".85">ピークの集客</text>
+        <g font-size="12" fill="var(--paper)"><text x="704" y="204">・イベントの企画・制作・運営</text><text x="704" y="224">・駅DOOH・交通広告の買付</text><text x="704" y="244">・仮設サイネージの施工・許認可</text><text x="704" y="264">・IP・謎解きの手配</text></g>
+        <text x="500" y="292" font-size="11" fill="var(--muted)" text-anchor="middle">週次の定例（3者）／月次レポート／四半期ごとの理事会報告</text>
+      </svg>
+      <figcaption>図8 推進体制。窓口はディシーワークス×CMJに一本化し、エスエス会の負担を減らします。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= 10 KPI ================= -->
+<section class="sec" id="kpi">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">10</span><h2>効果測定 ― KPIツリーとロジックモデル</h2><span class="en">KPI &amp; Logic Model</span></div>
+    <p class="lead">「やったこと」ではなく<b>「何が変わったか」</b>で報告します。短期はデジタル指標で成果を示し、中長期の来街者数や売上は施策の「寄与」として誠実に示します。</p>
+
+    <figure class="figure">
+      <svg viewBox="0 0 1060 250" class="svgtext" role="img" aria-label="ロジックモデル：投入から活動、成果物、短期成果、中期成果、長期の影響まで">
+        <defs><marker id="ar2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="var(--muted)"/></marker></defs>
+        <g font-size="12" text-anchor="middle">
+          <g><rect x="6" y="20" width="160" height="40" rx="8" fill="var(--ink2)"/><text x="86" y="45" fill="var(--paper)" font-weight="700">投入</text></g>
+          <g><rect x="182" y="20" width="160" height="40" rx="8" fill="var(--navy)"/><text x="262" y="45" fill="var(--paper)" font-weight="700">活動</text></g>
+          <g><rect x="358" y="20" width="160" height="40" rx="8" fill="var(--navy2)"/><text x="438" y="45" fill="var(--paper)" font-weight="700">成果物</text></g>
+          <g><rect x="534" y="20" width="160" height="40" rx="8" fill="var(--green)"/><text x="614" y="45" fill="var(--paper)" font-weight="700">短期の成果</text></g>
+          <g><rect x="710" y="20" width="160" height="40" rx="8" fill="var(--gold)"/><text x="790" y="45" fill="#1d1d1d" font-weight="700">中期の成果</text></g>
+          <g><rect x="886" y="20" width="168" height="40" rx="8" fill="var(--brick)"/><text x="970" y="45" fill="var(--paper)" font-weight="700">長期の影響</text></g>
+        </g>
+        <g stroke="var(--muted)" stroke-width="2" marker-end="url(#ar2)"><line x1="166" y1="40" x2="180" y2="40"/><line x1="342" y1="40" x2="356" y2="40"/><line x1="518" y1="40" x2="532" y2="40"/><line x1="694" y1="40" x2="708" y2="40"/><line x1="870" y1="40" x2="884" y2="40"/></g>
+        <g font-size="11.5" fill="var(--ink2)">
+          <text x="14" y="88">補助金＋組合の負担</text><text x="14" y="108">加盟約200店</text><text x="14" y="128">制作チーム</text><text x="14" y="148">メディア・代理店</text>
+          <text x="190" y="88">ウェブ刷新・多言語化</text><text x="190" y="108">取材・ZINE</text><text x="190" y="128">SNS・講座</text><text x="190" y="148">連携イベント</text><text x="190" y="168">サイネージ・雑誌</text>
+          <text x="366" y="88">記事24本／年</text><text x="366" y="108">ZINE 4号</text><text x="366" y="128">動画・投稿数</text><text x="366" y="148">講座を受けた店の数</text><text x="366" y="168">誌面・露出の件数</text>
+          <text x="542" y="88">自然検索・多言語流入</text><text x="542" y="108">保存数・UGC</text><text x="542" y="128">LINE友だち</text><text x="542" y="148">自店で発信する店の割合</text>
+          <text x="718" y="88">通行量・人流（属性）</text><text x="718" y="108">回遊（スタンプ）</text><text x="718" y="128">協力店の売上</text><text x="718" y="148">推奨意向（NPS）</text>
+          <text x="894" y="88">ブランド価値</text><text x="894" y="108">空き店舗率の改善</text><text x="894" y="128">新規出店・事業承継</text><text x="894" y="148">地域経済への波及</text>
+        </g>
+        <text x="530" y="222" font-size="11" fill="var(--muted)" text-anchor="middle">短期の成果はデジタル指標で証明 ／ 中期以降は人流データと売上で「寄与」を示す</text>
+      </svg>
+      <figcaption>図9 ロジックモデル。各段階の指標は月次レポートで追います。</figcaption>
+    </figure>
+
+    <div class="tbl" style="margin-top:12px"><table>
+      <thead><tr><th>指標</th><th>現状（把握できた値）</th><th>1年後（たたき台）</th><th>測り方</th></tr></thead>
+      <tbody>
+        <tr><td>来街者数（平常時・セール時）</td><td>セール1回 約40万人（2016年）</td><td>前年同期比 +5〜10%</td><td>AIカメラ・人流データ</td></tr>
+        <tr><td>公式サイト 自然検索流入</td><td>キックオフ時に計測</td><td>前年比 +50%</td><td>GA4・Search Console</td></tr>
+        <tr><td>多言語セッション比率</td><td>英語のみ</td><td>15%以上</td><td>GA4</td></tr>
+        <tr><td>来店につながる行動（地図・電話・経路）</td><td>—</td><td>月3,000件</td><td>GA4イベント</td></tr>
+        <tr><td>Instagram フォロワー</td><td>約2.8万</td><td>3.5万</td><td>インサイト</td></tr>
+        <tr><td>LINE 友だち</td><td>約7,800</td><td>1.5万</td><td>LINE公式</td></tr>
+        <tr><td>LINEクーポン利用</td><td>—</td><td>セール1回あたり1,000件</td><td>クーポン利用ログ</td></tr>
+        <tr><td>店主取材の記事化</td><td>0</td><td>24店</td><td>制作実績</td></tr>
+        <tr><td>店舗による自店情報の更新率</td><td>—</td><td>60%以上</td><td>CMSのログ</td></tr>
+      </tbody>
+    </table></div>
+
+    <div class="grid g3" style="margin-top:20px">
+      <div class="card flat"><h4>人流計測の選択肢</h4><p class="small" style="color:var(--ink2)">AIカメラ（レンタルなら月数万円〜）。元住吉ブレーメン通りで「約15,000人/日が脇道へ流れている」ことを可視化した事例がある。広域分析ならKDDI Location Analyzerやモバイル空間統計（いずれも見積制）。</p></div>
+      <div class="card flat"><h4>ベースラインを先に取る</h4><p class="small" style="color:var(--ink2)">2027年2月のセール期と平常時の両方でベースラインを取る。比較は前年同期比と、近隣エリアとの差で行う。</p></div>
+      <div class="card flat"><h4>すべての接点にQR</h4><p class="small" style="color:var(--ink2)">サイネージ・雑誌・ZINE・マップのQRに個別のUTMを付け、どの媒体から来たかを分けて測る。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 11 BUDGET ================= -->
+<section class="sec" id="budget">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">11</span><h2>概算予算と補助金の組み合わせ</h2><span class="en">Budget &amp; Funding</span></div>
+    <div class="split">
+      <div>
+        <div class="tbl"><table>
+          <thead><tr><th>項目</th><th>担当</th><th>概算（初年度・税別）</th></tr></thead>
+          <tbody>
+            <tr><td>診断・応急改善・多言語LP</td><td><span class="tag dw">DW×CMJ</span></td><td>150万〜250万円</td></tr>
+            <tr><td>ウェブ本格リニューアル（店舗DB・地図・4言語）</td><td><span class="tag dw">DW×CMJ</span></td><td>600万〜900万円</td></tr>
+            <tr><td>取材連載（月2本・多言語展開）</td><td><span class="tag dw">DW×CMJ</span></td><td>240万〜360万円</td></tr>
+            <tr><td>季刊ZINE（4号）</td><td><span class="tag dw">DW×CMJ</span></td><td>200万〜400万円</td></tr>
+            <tr><td>SNS運用・縦型動画・講座</td><td><span class="tag dw">DW×CMJ</span></td><td>360万〜600万円</td></tr>
+            <tr><td>雑誌タイアップ（1〜2件）</td><td><span class="tag pt">メディア</span></td><td>100万〜300万円</td></tr>
+            <tr><td>人流計測・効果検証</td><td><span class="tag dw">DW×CMJ</span></td><td>50万〜150万円</td></tr>
+            <tr><td>イベント・駅DOOH・仮設サイネージ</td><td><span class="tag ag">代理店</span></td><td>別途見積</td></tr>
+          </tbody>
+        </table></div>
+        <p class="note" style="margin-top:8px">※ 金額は検討用のたたき台です。範囲・本数の調整で段階的に導入できます（例：初年度はウェブ＋取材＋SNSに絞る）。</p>
+      </div>
+      <div>
+        <h4>補助金の組み合わせ案（経費ごとに財源を割り当て、二重計上はしない）</h4>
+        <div class="tbl" style="margin-top:8px"><table>
+          <thead><tr><th>制度</th><th>補助率・上限</th><th>充てる施策</th></tr></thead>
+          <tbody>
+            <tr><td><b>横浜市 商店街にぎわい促進事業</b></td><td>1/2。上限は店舗数で変わる（R7は300店以上で1,100万円）</td><td>ウェブ・PR動画・チラシ・イベント（対象経費の例に明記）</td></tr>
+            <tr><td><b>神奈川県 商店街魅力アップ</b></td><td>1/3〜1/2、上限250万円（二次情報）</td><td>2者以上の商店街が連携するツアー・イベント（中華街・山手との連携）</td></tr>
+            <tr><td><b>神奈川県 観光客受入環境整備</b></td><td>1/2、上限100万円（二次情報）</td><td>多言語ウェブ・多言語サイネージ</td></tr>
+            <tr><td>横浜市 原動力強化支援（デジタル）</td><td>専門家派遣が無料</td><td>事前のSNS・ウェブ診断</td></tr>
+            <tr><td>小規模事業者持続化補助金（共同・協業型）</td><td>要確認</td><td>個店の販促（2026/12/15締切と報道・要確認）</td></tr>
+          </tbody>
+        </table></div>
+        <div class="callout gold" style="margin-top:14px"><b>注意</b>：市・県の令和8年度分は受付を終えています。主に狙うのは<b>令和9年度分（2027年2〜4月の申請見込み）</b>です。そのため、Phase 0のうちに申請書を準備します。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 12 NEXT ================= -->
+<section class="sec" id="next">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">12</span><h2>進め方 ― 次の一歩</h2><span class="en">Next Steps</span></div>
+    <div class="split">
+      <ol class="steps">
+        <li><b>理事会・街づくり室へのご説明（12月）</b><br><span class="small">本提案の方向性、特に「伝統を守るための約束」についてご意見をいただきます。</span></li>
+        <li><b>キックオフと現状の共有（12月〜1月）</b><br><span class="small">加盟店数・空き店舗数、現行サイトとSNSの数値、協定のサイネージ基準を共有いただきます。</span></li>
+        <li><b>補助金の事前相談（1月）</b><br><span class="small">市の商業振興課・県と、令和9年度分の時期と対象経費を確認します。</span></li>
+        <li><b>クイックウィンの実行（1〜2月）</b><br><span class="small">サイトの応急改善、多言語LP、春のセールでの中華街連携、人流のベースライン計測。</span></li>
+        <li><b>取材のパイロット（1〜2月）</b><br><span class="small">3店舗で「元町の手」を試作し、店主の皆さまに仕上がりをご確認いただきます。</span></li>
+      </ol>
+      <div class="card">
+        <h4>キックオフでご確認したいこと</h4>
+        <ul class="clean small" style="color:var(--ink2)">
+          <li>最新の加盟店数（補助金の上限区分の判定に必要）と空き店舗の状況</li>
+          <li>現行サイト・SNSの管理体制とアクセス数値</li>
+          <li>街づくり協定・運用規定のうち、サイネージ・照明に関する基準</li>
+          <li>2027年3月の協定更新の進め方</li>
+          <li>中華街・山手・ハマフェス実行委員会との現在の関係</li>
+          <li>広告代理店との役割分担と予算の範囲</li>
+        </ul>
+        <div class="callout navy" style="margin:16px 0 0">
+          <p class="quote" style="font-size:20px;margin:0">「1859年からの物語を、<br>次の150年へ手渡す。」</p>
+          <p class="small" style="margin:6px 0 0">ディシーワークス × CMJ</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER / SOURCES ================= -->
+<footer class="footer" id="sources">
+  <div class="wrap">
+    <h3 style="margin-top:0">調査方法と主な出典</h3>
+    <p>本提案は、10の観点（元町の現状／周辺エリア連携／神楽坂／他エリア事例／雑誌・メディア／ウェブ／SNS／イベント・サイネージ／補助金・KPI／ターゲット・トレンド）で並行して行った公開情報の調査にもとづきます（2026年11月時点）。一部のサイトは本文を取得できず、検索結果の要約を根拠にしています。「推定」「要確認」とした数値は、正式な提案の前に原典で確認します。調査メモの全文は同じリポジトリの <code>research/</code> フォルダにあります。</p>
+    <ul class="src-list">
+      <li>元町エスエス会 公式サイト・まちづくりルールブック https://www.motomachi.or.jp/</li>
+      <li>横浜市 観光動態（2026/6/18発表） https://www.city.yokohama.lg.jp/city-info/koho-kocho/press/bunka/2026/0618doutai.html</li>
+      <li>神奈川新聞 2025年観光統計 https://www.kanaloco.jp/news/government/article-1285079.html</li>
+      <li>神奈川新聞 横浜港クルーズ寄港209回 https://www.kanaloco.jp/news/government/article-1257755.html</li>
+      <li>国土交通省 クルーズ統計 https://www.mlit.go.jp/kowan/content/002019776.pdf</li>
+      <li>国土交通省 GREEN×EXPO 2027 概要 https://www.mlit.go.jp/toshi/park/content/001894165.pdf</li>
+      <li>神奈川新聞 チャーミングセール https://www.kanaloco.jp/news/economy/entry-70308.html</li>
+      <li>まっぷる チャーミングセール https://www.mapple.net/article/21027/</li>
+      <li>横浜市 元町通り街づくり協定の認定 https://www.city.yokohama.lg.jp/kurashi/machizukuri-kankyo/toshiseibi/suishin/minnade/enact/rule/Cert-rule/R09002.html</li>
+      <li>横浜市中区 統計便覧（駅乗車人員） https://cn.city.yokohama.lg.jp/naka/kusei/tokei/toukei-binran/binran2024.files/2024_binran_Part16.pdf</li>
+      <li>テレビ東京 アド街ック天国（2025/9/13） https://www.tv-tokyo.co.jp/adomachi/backnumber/20250913/146308.html</li>
+      <li>元町×中華街 共同キャンペーン（2021） https://motomachi.or.jp/wp-content/uploads/2021/02/Release_Motomachi.ChinaTown210212.pdf</li>
+      <li>Instagram @yokohamamotomachi／@chikazawalace、LINE公式 https://page.line.me/277jmgpo</li>
+      <li>新宿区 神楽坂まつり・地区計画・屋外広告物 https://www.city.shinjuku.lg.jp/</li>
+      <li>アーツカウンシル東京 神楽坂まち舞台2026 https://www.artscouncil-tokyo.jp/</li>
+      <li>中央区 銀座デザイン協議会 https://www.city.chuo.lg.jp/kankyo/keikaku/tosirurru/ginzarurru/ginzadesign.html</li>
+      <li>自由が丘 女神まつり https://kyodonewsprwire.jp/release/202309290445 ／ ブランド低下 https://gendai.media/articles/-/166011</li>
+      <li>谷根千（UR都市機構レポート） https://urc.or.jp/wp-content/uploads/2023/05/2022_URCreport_yanesen.pdf</li>
+      <li>横浜元町と神戸の交流 https://www.kanaloco.jp/news/economy/entry-21856.html</li>
+      <li>川越市 観光統計 https://www.city.kawagoe.saitama.jp/</li>
+      <li>散歩の達人 媒体情報 https://media-radar.jp/detail30470.html ／ 相模原市との共同制作 https://www.city.sagamihara.kanagawa.jp/</li>
+      <li>ことりっぷ×鶴見区 https://www.city.yokohama.lg.jp/tsurumi/shokai/odekake/cotrip.html</li>
+      <li>ウォーカープラス 販促支援企画 https://mediaguide.kadokawa.co.jp/</li>
+      <li>大阪府 商店街デジタル回遊支援 https://www.pref.osaka.lg.jp/documents/127612/r7shoutengai.pdf</li>
+      <li>横浜市 交通局 広告媒体 https://www.city.yokohama.lg.jp/kotsu/kigyo/etc/media-station.html</li>
+      <li>横浜市 商店街にぎわい促進事業 https://www.city.yokohama.lg.jp/business/kigyoshien/syogyo/shotengai/nigiwai.html</li>
+      <li>神奈川県 商店街魅力アップ https://www.pref.kanagawa.jp/docs/m2w/miryokuappu/r08boshu.html</li>
+      <li>神奈川県 観光客受入環境整備費補助金 https://www.pref.kanagawa.jp/docs/b6m/hojyokin/r8ukeirekankyouhojyokin.html</li>
+      <li>横浜市コラボックス AIカメラ活用（元住吉） https://th.city.yokohama.lg.jp/business/kigyoshien/syogyo/shotengai/corabox-shoten.files/tokyosystemkatuyou.pdf</li>
+      <li>観光庁 新免税制度 https://www.mlit.go.jp/kankocho/tax-free/content/001978459.pdf</li>
+      <li>nippon.com 訪日客数・消費額 https://www.nippon.com/ja/japan-data/h02673/</li>
+      <li>トラベルWatch BASEGATE横浜関内 https://travel.watch.impress.co.jp/docs/news/2092938.html</li>
+    </ul>
+    <p style="margin-top:28px">© 2026 ディシーワークス × CMJ ｜ 本資料は協同組合 元町エスエス会さまへのご提案を目的とした検討資料です。</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.getElementById('themeBtn'), root=document.documentElement;
+  try{var s=localStorage.getItem('mm-theme'); if(s) root.setAttribute('data-theme',s);}catch(e){}
+  btn.addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme');
+    var dark=cur? cur==='dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var next=dark?'light':'dark'; root.setAttribute('data-theme',next);
+    try{localStorage.setItem('mm-theme',next);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>
